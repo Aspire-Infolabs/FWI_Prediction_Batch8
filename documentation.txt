@@ -1,0 +1,25 @@
+import pandas as pd
+
+df = pd.read_csv("FWI Dataset.csv")
+print(df)
+print(df.info())
+print(df.describe())
+print(df.isnull().sum())
+print(df.head())
+print(df.tail())
+
+print(df[df.isnull().any(axis=1)])
+print(df.shape)
+
+df['Region'] = df['Region'].fillna(df['Region'].mode()[0])
+df['Classes  '] = df['Classes  '].fillna(df['Classes  '].mode()[0])
+
+
+First I loaded the dataset into pandas framework and printed it. Then i printed the data info showing number of rows and columns, data types and columns showing missing values. Then the describe function prints the count, mean, median, standard deviation, minimum and maximum, first and third quartile of the values. I also printed first and last five values, and also the shape which contains the rows to columns.
+I checked how many missing values are present in each column,  printed the rows that contain the missing values and filled the missing values using mode.
+
+py -m venv venv
+venv\Scripts\activate
+I created a virtual environment folder and activated it.
+
+Install all required packages. Create a requirements.txt file and copy the packages and version into it.
