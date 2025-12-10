@@ -1,0 +1,16 @@
+pandas==2.2.2
+pip install pandas
+
+numpy==1.26.4
+pip install numpy
+
+scikit-learn==1.5.2
+pip install scikit-learn
+
+matplotlib==3.9.0
+pip install matplotlib
+
+seaborn==0.13.2
+pip install seaborn
+
+pip list show
