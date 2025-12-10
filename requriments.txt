@@ -1,0 +1,11 @@
+Python Version==3.11.8
+
+#Numerical Computations
+numpy==1.26.4
+
+#Data Processing
+panads==2.3.2
+
+#Data Visulaization
+matplotlib==3.10.7
+seaborn==0.13.2
