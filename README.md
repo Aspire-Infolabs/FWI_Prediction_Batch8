@@ -1,8 +1,7 @@
 Fire Weather Index (FWI) Prediction Project  
 Module 1 and Module 2  
 
-Submitted By: U P Mahendra  
-Domain: Machine Learning  
+Submitted By: U P Mahendra    
 Dataset: Fire Weather Index (FWI) Dataset – Kaggle  
 Programming Language: Python  
 
