@@ -1,0 +1,2 @@
+- Pending Docx
+- Missing plots(Density, Scatter etc) in EDA 
