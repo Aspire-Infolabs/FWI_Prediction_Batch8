@@ -1,4 +1,4 @@
-This repository contains a machine learning model built using scikit-learn to predict the Fire Weather Index (FWI) based on various meteorological and environmental factors. The dataset includes columns such as day, month, year, temperature, relative humidity (RH), wind speed (WS), rain, and several indices (FFMC, DMC, DC, ISI, BUI). The model aims to predict the FWI, which is crucial for wildfire risk assessment.
+This repository contains a machine learning model built using scikit-learn to predict the Fire Weather Index (FWI) based on various meteorological and environmental factors. The dataset includes columns such as Day, Month, Year, Temperature, Relative Humidity (RH), Wind Speed (WS), Rain, Classes, Region and several indices (FFMC, DMC, DC, ISI, BUI,FWI). The model aims to predict the FWI, which is crucial for wildfire risk assessment.
 
 Dataset
 The dataset contains the following columns:
