@@ -1,0 +1,31 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>FWI Predictor</title>
+<style>
+body{background:#0f2027;color:white;font-family:Arial;text-align:center}
+input,button{padding:10px;margin:5px;width:250px;border-radius:8px;border:none}
+button{background:orange;font-weight:bold}
+</style>
+</head>
+<body>
+<h1>🔥 Forest Fire Weather Index Predictor</h1>
+<form method="post" action="/predict">
+<input name="Temperature" placeholder="Temperature" required><br>
+<input name="RH" placeholder="Relative Humidity" required><br>
+<input name="Wind" placeholder="Wind Speed" required><br>
+<input name="Rain" placeholder="Rain" required><br>
+<input name="FFMC" placeholder="FFMC" required><br>
+<input name="DMC" placeholder="DMC" required><br>
+<input name="DC" placeholder="DC" required><br>
+<input name="BUI" placeholder="BUI" required><br>
+<input name="ISI" placeholder="ISI" required><br>
+<button type="submit">Predict FWI</button>
+</form>
+{% if prediction %}
+<h2>FWI Value: {{prediction}}</h2>
+<h3>Risk Level: {{risk}}</h3>
+{% endif %}
+</body>
+</html>
