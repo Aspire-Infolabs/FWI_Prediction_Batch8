@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>FWI Result</title>
+    <style>
+        body {
+            background-color: #121212;
+            color: white;
+            font-family: Arial;
+            text-align: center;
+        }
+        .box {
+            margin-top: 100px;
+        }
+        .low { color: #4caf50; }
+        .moderate { color: #ffeb3b; }
+        .high { color: #ff9800; }
+        .veryhigh { color: #ff5722; }
+        .extreme { color: #f44336; }
+    </style>
+</head>
+<body>
+
+<div class="box">
+    <h2>Predicted Fire Weather Index</h2>
+    <h1>{{ prediction }}</h1>
+
+    <h2 class="
+        {% if category == 'Low' %}low
+        {% elif category == 'Moderate' %}moderate
+        {% elif category == 'High' %}high
+        {% elif category == 'Very High' %}veryhigh
+        {% else %}extreme{% endif %}
+    ">
+        Risk Level: {{ category }}
+    </h2>
+
+    <br>
+    <a href="/" style="color:#ff5722;">Predict Again</a>
+</div>
+
+</body>
+</html>
