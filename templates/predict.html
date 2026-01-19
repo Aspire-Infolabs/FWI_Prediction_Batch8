@@ -1,0 +1,65 @@
+
+{% extends "base.html" %}
+{% block content %}
+
+<div class="card">
+    <h2>Forest Fire Weather Index (FWI) Prediction</h2>
+
+    <!-- Added sentence -->
+    <p class="desc">
+        Enter the fire weather Index parameters below to get the predicted FWI.
+    </p>
+
+    <form action="/predict" method="post">
+
+        <div class="field">
+            <label>Temperature</label>
+            <input type="number" step="any" name="Temperature" required>
+        </div>
+
+        <div class="field">
+            <label>Relative Humidity (RH)</label>
+            <input type="number" step="any" name="RH" required>
+        </div>
+
+        <div class="field">
+            <label>Wind Speed (WS)</label>
+            <input type="number" step="any" name="WS" required>
+        </div>
+
+        <div class="field">
+            <label>Rain</label>
+            <input type="number" step="any" name="Rain" required>
+        </div>
+
+        <div class="field">
+            <label>FFMC</label>
+            <input type="number" step="any" name="FFMC" required>
+        </div>
+
+        <div class="field">
+            <label>DMC</label>
+            <input type="number" step="any" name="DMC" required>
+        </div>
+
+        <div class="field">
+            <label>DC</label>
+            <input type="number" step="any" name="DC" required>
+        </div>
+
+        <div class="field">
+            <label>ISI</label>
+            <input type="number" step="any" name="ISI" required>
+        </div>
+
+        <div class="field">
+            <label>BUI</label>
+            <input type="number" step="any" name="BUI" required>
+        </div>
+
+        <button type="submit">Predict FWI</button>
+
+    </form>
+</div>
+
+{% endblock %}

@@ -1,0 +1,117 @@
+
+/* ===== IMPORT FONT ===== */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+
+/* ===== BODY ===== */
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    background: url("/static/bg.png") no-repeat center center fixed;
+    background-size: cover;
+}
+
+/* ===== TOP BAR ===== */
+.topbar {
+    background: rgba(227, 237, 249, 0.9);
+    padding: 12px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    backdrop-filter: blur(6px);
+}
+
+.app-title {
+    font-size: 16px;
+    font-weight: 600;
+    color: #1f2937;
+}
+
+.home-link {
+    font-size: 14px;
+    color: #1f2937;
+}
+
+/* ===== MAIN LAYOUT ===== */
+.main {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+/* ===== CARD (GLASS EFFECT) ===== */
+.card {
+    background: rgba(255, 255, 255, 0.92);
+    width: 420px;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.25);
+    text-align: center;
+}
+
+/* ===== HEADINGS ===== */
+h2 {
+    color: #1f2937;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+/* ===== DESCRIPTION TEXT ===== */
+.desc {
+    font-size: 13px;
+    color: #4b5563;
+    margin-bottom: 22px;
+}
+
+/* ===== FORM ===== */
+.field {
+    text-align: left;
+    margin-bottom: 12px;
+}
+
+label {
+    font-size: 13px;
+    font-weight: 500;
+    color: #374151;
+}
+
+input {
+    width: 100%;
+    padding: 7px;
+    margin-top: 4px;
+    border: 1px solid #d1d5db;
+    border-radius: 4px;
+    font-family: 'Inter', sans-serif;
+}
+
+/* ===== BUTTON ===== */
+button {
+    margin-top: 18px;
+    width: 100%;
+    padding: 10px;
+    background: linear-gradient(135deg, #2563eb, #3b82f6);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+/* ===== RESULT ===== */
+.value {
+    font-size: 28px;
+    font-weight: 600;
+    color: #16a34a;
+    margin: 14px 0;
+}
+
+.success {
+    font-size: 13px;
+    color: #4b5563;
+}
+
+.back-btn {
+    width: auto;
+    padding: 8px 20px;
+}
+

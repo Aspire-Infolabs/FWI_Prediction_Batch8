@@ -1,0 +1,19 @@
+
+{% extends "base.html" %}
+{% block content %}
+
+<div class="card">
+    <h2>FWI Prediction Result</h2>
+
+    <p class="desc">The predicted Fire Weather Index (FWI) is:</p>
+
+    <div class="value">{{ prediction }}</div>
+
+    <p class="success">FWI prediction successful!</p>
+
+    <a href="/">
+        <button class="back-btn">Go Back</button>
+    </a>
+</div>
+
+{% endblock %}
