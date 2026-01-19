@@ -39,6 +39,7 @@ Software
 Python 3.9+
 Flask
 Required Python libraries (see requirements.txt)
+
 WEB APPLICATION 
 1. User Signup Page
 <img width="672" height="449" alt="image" src="https://github.com/user-attachments/assets/4fad324c-a447-4638-8773-889cd8d12cec" />
