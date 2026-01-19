@@ -47,14 +47,10 @@ WEB APPLICATION
 
 2. User Login Page:
 <img width="706" height="446" alt="image" src="https://github.com/user-attachments/assets/836b3176-1400-4602-8cd4-b799e3f1a7d1" />
-
 3.Home Page
 <img width="657" height="711" alt="image" src="https://github.com/user-attachments/assets/43bc96a5-e9f5-4139-8e6d-41d449a22465" />
-
-
 4.FWI Prediction Input Page:
 <img width="868" height="756" alt="image" src="https://github.com/user-attachments/assets/3e80f4c0-ceb0-473c-bb62-5a61587f3922" />
-
 5.Prediction ResultPage
 <img width="634" height="576" alt="image" src="https://github.com/user-attachments/assets/79dda3e0-8fd1-4030-99b4-36c3e442a6af" />
 
