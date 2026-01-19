@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FWI Result</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<!-- Navigation Bar (optional but recommended) -->
+<div class="navbar">
+    <div class="nav-title">🔥 FWI Predictor</div>
+    <div class="nav-links">
+        <a href="/home">Home</a>
+        <a href="/predict-page">Predict</a>
+        <a href="/logout">Logout</a>
+    </div>
+</div>
+
+<div class="container">
+    <h2>🔥 Prediction Result</h2>
+
+    {% if error %}
+        <p class="error-text">{{ error }}</p>
+    {% else %}
+        <div class="result-box {{ color }}">
+            <h3>FWI Value: {{ fwi }}</h3>
+            <h3 class="risk-text">{{ risk }}</h3>
+
+            {% if desc %}
+                <p class="desc">{{ desc }}</p>
+            {% endif %}
+        </div>
+
+        <!-- FWI Legend -->
+        <div class="legend">
+            <p><b>FWI Scale:</b></p>
+            <p>🟢 0 – 5 : Low Risk</p>
+            <p>🟠 5 – 15 : Moderate Risk</p>
+            <p>🔴 15 – 30 : High Risk</p>
+            <p>🔥 30+ : Extreme Risk</p>
+        </div>
+    {% endif %}
+
+    <a href="/predict-page" class="btn">Predict Again</a>
+</div>
+
+</body>
+</html>
