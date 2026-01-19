@@ -1,10 +1,10 @@
 Fire Weather Index (FWI) Predictor
-A Machine Learning–based web application to predict Fire Weather Index (FWI) using environmental and fire-danger parameters. Developed as part of the Infosys Springboard Virtual Internship Program.\
+A Machine Learning–based web application to predict Fire Weather Index (FWI) using environmental and fire-danger parameters. Developed as part of the Infosys Springboard Virtual Internship Program.
 
 Problem Statement:-
 Wildfires pose a serious threat to ecosystems, human life, and property. The Fire Weather Index (FWI) is a globally used indicator to estimate forest fire danger based on weather conditions and fuel moisture content.
 
-This project aims to develop an end-to-end Fire Weather Index prediction system using machine learning. The system processes key meteorological and fire-related parameters, predicts the FWI value, classifies fire risk levels, and presents the results through a user-friendly Flask web application. The goal is to support early warning, risk assessment, and informed decision-making for wildfire management.\
+This project aims to develop an end-to-end Fire Weather Index prediction system using machine learning. The system processes key meteorological and fire-related parameters, predicts the FWI value, classifies fire risk levels, and presents the results through a user-friendly Flask web application. The goal is to support early warning, risk assessment, and informed decision-making for wildfire management.
 
 Project Outcomes:-
 
