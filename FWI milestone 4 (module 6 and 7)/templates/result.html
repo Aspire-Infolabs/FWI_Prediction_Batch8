@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FWI Result</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+
+<div class="card">
+    <h1>🔥 Fire Weather Index Result</h1>
+
+    <div class="circle" style="border-color: {{ color }};">
+        <span style="color: {{ color }};">{{ fwi }}</span>
+    </div>
+
+    <p class="risk" style="color: {{ color }};">
+        {{ risk }} Risk
+    </p>
+
+    <canvas id="fwiChart" width="320" height="200"></canvas>
+
+    <a href="/">🔄 Predict Again</a>
+</div>
+
+<script>
+    const ctx = document.getElementById("fwiChart");
+
+    new Chart(ctx, {
+        type: "line",
+        data: {
+            labels: ["Safe", "Alert", "Warning", "Danger"],
+            datasets: [{
+                label: "FWI Level",
+                data: [0, 5, 10, {{ fwi }}],
+                borderColor: "{{ color }}",
+                backgroundColor: "transparent",
+                tension: 0.4,
+                pointRadius: 5
+            }]
+        },
+        options: {
+            responsive: true,
+            plugins: {
+                legend: {
+                    display: false
+                }
+            },
+            scales: {
+                y: {
+                    beginAtZero: true
+                }
+            }
+        }
+    });
+</script>
+
+</body>
+</html>
