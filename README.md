@@ -47,7 +47,8 @@ Software
 
 **Web Application Output Screens**
 
-Home page <img width="1855" height="856" alt="Screenshot 2026-01-18 054134" src="https://github.com/user-attachments/assets/1e5b131a-bff1-4abf-9b9b-2bed6beac2d6" />
+Home page <img width="1807" height="887" alt="image" src="https://github.com/user-attachments/assets/38d8bd00-4501-489c-900a-352287b4e4d6" />
+
 
 Result page <img width="1905" height="873" alt="Screenshot 2026-01-18 054116" src="https://github.com/user-attachments/assets/1f7c2f55-7ad1-4a18-9d8e-05dd44c90c10" />
 
