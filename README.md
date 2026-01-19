@@ -58,6 +58,8 @@ WEB APPLICATION
 5.Prediction ResultPage
 <img width="634" height="576" alt="image" src="https://github.com/user-attachments/assets/79dda3e0-8fd1-4030-99b4-36c3e442a6af" />
 
+WorkFlow Diagram
+<img width="1484" height="8191" alt="image" src="https://github.com/user-attachments/assets/12273a80-79e2-44cd-a96b-a249c5b8b7d3" />
 
 
 
