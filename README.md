@@ -54,7 +54,8 @@ WEB APPLICATION
 
 4.FWI Prediction Input Page:
 <img width="868" height="756" alt="image" src="https://github.com/user-attachments/assets/3e80f4c0-ceb0-473c-bb62-5a61587f3922" />
-5.Prediction Result Page
+
+5.Prediction ResultPage
 <img width="634" height="576" alt="image" src="https://github.com/user-attachments/assets/79dda3e0-8fd1-4030-99b4-36c3e442a6af" />
 
 
