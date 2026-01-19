@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FWI Predictor</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<div class="card">
+    <h2>Fire Weather Index Predictor</h2>
+
+    <p class="subtitle">
+        Enter weather parameters to predict Fire Weather Index
+    </p>
+
+    <form action="/predict" method="post">
+        <input type="text" name="temperature" placeholder="Temperature" required>
+        <input type="text" name="rh" placeholder="Relative Humidity" required>
+        <input type="text" name="wind" placeholder="Wind Speed" required>
+        <input type="text" name="rain" placeholder="Rain" required>
+        <input type="text" name="ffmc" placeholder="FFMC" required>
+        <input type="text" name="dmc" placeholder="DMC" required>
+        <input type="text" name="isi" placeholder="ISI" required>
+        <input type="text" name="region" placeholder="Region (0 or 1)" required>
+
+        <button type="submit">Predict FWI</button>
+    </form>
+</div>
+
+</body>
+</html>

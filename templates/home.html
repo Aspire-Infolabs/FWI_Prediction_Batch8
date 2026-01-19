@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FWI Prediction Result</title>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+    <div class="card">
+        <h2>FWI Prediction Result</h2>
+
+        <p class="subtitle">
+            Fire Weather Index calculated based on the entered parameters
+        </p>
+
+        <!-- FWI VALUE -->
+        <div class="fwi-value">
+            {{ prediction }}
+        </div>
+
+        <!-- FIRE + RISK (CENTERED WRAPPER) -->
+        <div class="fire-risk">
+
+            <!-- FIRE GIF -->
+            <img src="{{ url_for('static', filename='images/fire.gif') }}"
+                 class="fire-gif"
+                 alt="Fire Animation">
+
+            <!-- RISK BADGE -->
+            <div class="badge {{ badge }}">
+                {{ risk }}
+            </div>
+
+        </div>
+
+        <!-- PRECAUTIONS -->
+        <div class="precautions">
+            <strong>Recommended Precautions:</strong>
+            <ul>
+                {% if badge == 'low' %}
+                <li>Maintain regular monitoring of weather conditions</li>
+                <li>Ensure basic fire safety measures are in place</li>
+                <li>No immediate restrictions required</li>
+
+                {% elif badge == 'moderate' %}
+                <li>Avoid open burning activities</li>
+                <li>Increase vigilance in forest and rural areas</li>
+                <li>Keep firefighting resources on standby</li>
+
+                {% else %}
+                <li>Strictly prohibit open fires and burning</li>
+                <li>Deploy emergency fire response teams</li>
+                <li>Issue public safety alerts if necessary</li>
+                <li>Continuously monitor high-risk zones</li>
+                {% endif %}
+            </ul>
+        </div>
+
+        <!-- BACK BUTTON -->
+        <a href="/" class="back-btn">Go Back</a>
+    </div>
+
+</body>
+</html>

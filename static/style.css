@@ -1,0 +1,117 @@
+/* RESET */
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: url("/static/images/background.jpg") no-repeat center center fixed;
+    background-size: cover;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding-top: 40px;  
+}
+
+/* CARD */
+.card {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 35px 45px;
+    border-radius: 12px;
+    width: 420px;
+    text-align: center;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+}
+
+/* SUBTITLE */
+.subtitle {
+    margin-top: 12px;
+    margin-bottom: 25px;
+    color: #555;
+    font-size: 14px;
+}
+
+/* INPUTS */
+.card input {
+    width: 100%;
+    padding: 9px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+/* BUTTON */
+.card button {
+    width: 100%;
+    padding: 11px;
+    background-color: #2c7be5;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.card button:hover {
+    background-color: #1a5fc4;
+}
+
+/* FWI VALUE */
+.fwi-value {
+    font-size: 28px;
+    font-weight: bold;
+    color: #2c7be5;
+    margin: 15px 0 5px;
+}
+
+
+.fire-risk {
+    text-align: center;   /
+}
+
+/* FIRE GIF */
+.fire-gif {
+    width: 60px;
+    height: auto;
+
+    display: block;
+    margin: 10px auto 6px auto;  
+}
+
+/* BADGES */
+.badge {
+    display: inline-block;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.low { background-color: #28a745; }
+.moderate { background-color: #ffc107; color: black; }
+.high { background-color: #dc3545; }
+
+/* PRECAUTIONS */
+.precautions {
+    text-align: left;
+    font-size: 14px;
+}
+
+/* BACK BUTTON */
+.back-btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 16px;
+    background-color: #2c7be5;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+.back-btn:hover {
+    background-color: #1a5fc4;
+}
