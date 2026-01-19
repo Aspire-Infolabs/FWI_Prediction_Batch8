@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fire Weather Index Prediction</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<div class="hero">
+    <div class="icon">🔥</div>
+    <h1>Fire Weather Index<br><span>Prediction System</span></h1>
+    <p class="desc">
+        Advanced machine learning model for accurate fire weather risk assessment.
+        Enter environmental parameters to predict potential fire danger.
+    </p>
+    <span class="badge">Powered by Ridge Regression ML</span>
+</div>
+
+<div class="features">
+    <div class="card">⚡ <h3>Instant Prediction</h3><p>Real-time FWI results</p></div>
+    <div class="card highlight">🛡️ <h3>Risk Assessment</h3><p>Automatic classification</p></div>
+    <div class="card">📊 <h3>Accurate Model</h3><p>Ridge Regression ML</p></div>
+</div>
+
+<div class="form-card">
+    <h2>Enter Weather Parameters</h2>
+    <p>Provide accurate measurements for precise prediction</p>
+
+    <form action="/predict" method="POST">
+        <div class="grid">
+        <input type="number" step="any" name="Temperature" placeholder="Temperature (°C)" required>
+        <input type="number" step="any" name="RH" placeholder="Relative Humidity (%)" required>
+        <input type="number" step="any" name="Rain" placeholder="Rain (mm)" required>
+        <input type="number" step="any" name="FFMC" placeholder="FFMC" required>
+        <input type="number" step="any" name="DMC" placeholder="DMC" required>
+        <input type="number" step="any" name="DC" placeholder="DC" required>
+        <input type="number" step="any" name="ISI" placeholder="ISI" required>
+        <input type="number" step="any" name="BUI" placeholder="BUI" required>
+        <input type="number" step="any" name="Ws" placeholder="Wind Speed (km/h)" required>
+</div>
+
+        <button type="submit">Predict FWI →</button>
+    </form>
+</div>
+</body>
+</html>
