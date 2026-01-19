@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>FWI Predictor</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #ffefba, #ffffff);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: url("/fwi_image.jpg");
+            background-size: cover;
+        }
+
+        .container {
+            background-color: white;
+            padding: 25px 40px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.2);
+            width: 400px;
+        }
+
+        h2 {
+            text-align: center;
+            color: #d35400;
+            margin-bottom: 20px;
+        }
+
+        label {
+            font-weight: bold;
+            display: block;
+            margin-top: 10px;
+        }
+
+        input[type="number"] {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+
+        input[type="submit"] {
+            width: 100%;
+            background-color: #e67e22;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            margin-top: 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #d35400;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <h2>Fire Weather Index Prediction</h2>
+
+        <form action="/predict" method="post">
+
+            <label>Temperature</label>
+            <input type="number" step="any" name="Temperature" required>
+
+            <label>Relative Humidity</label>
+            <input type="number" step="any" name="RH" required>
+
+            <label>Wind Speed</label>
+            <input type="number" step="any" name="Ws" required>
+
+            <label>Rain</label>
+            <input type="number" step="any" name="Rain" required>
+
+            <label>FFMC</label>
+            <input type="number" step="any" name="FFMC" required>
+
+            <label>DMC</label>
+            <input type="number" step="any" name="DMC" required>
+
+            <label>DC</label>
+            <input type="number" step="any" name="DC" required>
+
+            <label>ISI</label>
+            <input type="number" step="any" name="ISI" required>
+
+            <label>BUI</label>
+            <input type="number" step="any" name="BUI" required>
+
+            <input type="submit" value="Predict FWI">
+
+        </form>
+    </div>
+
+</body>
+</html>
+

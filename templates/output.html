@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>FWI Result</title>
+    <style>
+        body {
+            font-family: Arial;
+            background: #fdf2e9;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .box {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            text-align: center;
+            width: 350px;
+        }
+
+        h2 {
+            color: #d35400;
+        }
+
+        .risk {
+            font-size: 22px;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+
+        a {
+            display: inline-block;
+            margin-top: 20px;
+            text-decoration: none;
+            background: #e67e22;
+            color: white;
+            padding: 10px 15px;
+            border-radius: 5px;
+        }
+
+        a:hover {
+            background: #d35400;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <h2>Predicted Fire Weather Index</h2>
+
+        <h1>{{ prediction }}</h1>
+
+        <p>Fire Risk Level</p>
+     <div class="risk {{ risk_class }}">
+    {{ risk }}
+    </div>
+
+
+        <a href="/">Predict Again</a>
+    </div>
+</body>
+</html>
