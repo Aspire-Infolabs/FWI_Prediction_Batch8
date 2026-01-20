@@ -1,0 +1,274 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:'Poppins',sans-serif;
+}
+
+body{
+  background:#111;
+  color:#ddd;
+  scroll-behavior:smooth;
+}
+
+nav{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:15px 30px;
+  background:rgba(0,0,0,0.5);
+  backdrop-filter:blur(10px);
+  position:fixed;
+  top:0;
+  width:100%;
+  z-index:100;
+}
+
+nav .logo{
+  font-size:24px;
+  font-weight:700;
+  color:#ff4500;
+}
+
+nav ul{
+  list-style:none;
+  display:flex;
+  gap:25px;
+}
+
+nav ul li a{
+  text-decoration:none;
+  color:#ddd;
+  font-weight:500;
+  transition:0.2s;
+}
+
+nav ul li a:hover{
+  color:#ff9f1c;
+  cursor:pointer;
+}
+
+a.btn, button.predict-btn, button{
+  display:inline-block;
+  padding:12px 30px;
+  border-radius:12px;
+  background:linear-gradient(135deg,#ff4500,#ff9f1c);
+  color:white;
+  text-decoration:none;
+  margin-top:20px;
+  transition:0.3s;
+  border:none;
+  cursor:pointer;
+}
+
+a.btn:hover, button.predict-btn:hover, button:hover{
+  transform:scale(1.05);
+  box-shadow:0 0 20px #ff4500;
+}
+
+section{
+  min-height:100vh;
+  padding:100px 20px 60px;
+  position:relative;
+}
+
+#home{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+}
+#home h1{
+  font-size:50px;
+  margin-bottom:20px;
+  color:#ff4500;
+  animation:fadeIn 2s forwards;
+  opacity:0;
+}
+#home p{
+  font-size:20px;
+  margin-bottom:20px;
+  animation:fadeIn 3s forwards;
+  opacity:0;
+}
+
+@keyframes fadeIn{to{opacity:1;}}
+
+#about{
+  text-align:center;
+  padding:80px 20px;
+}
+
+#about h2{
+  font-size:36px;
+  color:#ff4500;
+  margin-bottom:30px;
+}
+
+#about p{
+  font-size:18px;
+  color:#ddd;
+  margin-bottom:20px;
+}
+
+.card{
+  background:rgba(255,69,0,0.1);
+  padding:20px;
+  margin:20px 0;
+  border-radius:16px;
+}
+
+#predictor{
+  display:grid;
+  grid-template-columns:1fr 1fr 1fr;
+  gap:20px;
+}
+
+.panel{
+  background:rgba(255,255,255,0.05);
+  backdrop-filter:blur(12px);
+  border-radius:16px;padding:20px;
+  box-shadow:0 0 20px rgba(255,69,0,0.2);
+}
+
+.panel h3{
+  margin-bottom:15px;
+  color:#ff9f1c;
+}
+
+label{
+  font-size:14px;
+  opacity:0.8;
+}
+
+input[type="range"]{
+  width:100%;
+  margin:10px 0 20px;
+}
+
+.value{
+  text-align:right;
+  font-size:14px;
+  color:#ff9f1c;
+}
+
+.risk-box{
+  text-align:center;
+  margin-top:30px;
+}
+
+.fwi-value{
+  font-size:48px;
+  font-weight:700;
+}
+
+.risk-level{
+  font-size:18px;
+  padding:8px 14px;
+  border-radius:10px;
+  display:inline-block;
+  background:red;
+}
+
+.explain{
+  margin-top:20px;
+  font-size:14px;
+  line-height:1.6;
+}
+
+.alert{
+  margin-top:20px;padding:12px;
+  background:rgba(255,0,0,0.2);
+  border:1px solid #ff4500;
+  border-radius:12px;
+  display:none;
+  animation:pulse 1.2s infinite;
+}
+
+@keyframes pulse{
+0%{box-shadow:0 0 5px #ff4500;}
+50%{box-shadow:0 0 25px #ff4500;}
+100%{box-shadow:0 0 5px #ff4500;}
+}
+@keyframes flicker{
+  0%{opacity:0.9;}
+  50%{opacity:1;}
+  100%{opacity:0.95;}
+}
+
+
+.fire-center{
+  position:relative;
+  width:250px;
+  height:250px;
+  margin:40px auto;
+  border-radius:50%;
+  background:radial-gradient(circle,#ff4500 0%,#ff9f1c 40%,#f78903 70%,transparent 100%);
+  box-shadow:0 0 50px #ff4500,0 0 100px #ff9f1c,0 0 150px #f78903;
+  animation:pulse 1s infinite alternate;
+  overflow:hidden;
+}
+
+.flame-spark{
+  position:absolute;
+  width:4px;
+  height:4px;
+  border-radius:50%;
+  background:orange;
+  bottom:10px;
+  opacity:0;
+  animation:rise 2s linear infinite;
+}
+@keyframes rise{
+0%{
+  transform:translateY(0) scale(0.5);
+  opacity:1;
+}
+100%{
+  transform:translateY(-150px) scale(1);
+  opacity:0;
+}
+}
+.panel {
+  max-height: 500px;      
+  overflow-y: auto;       
+  padding-right: 10px;    
+}
+
+.panel::-webkit-scrollbar {
+  width: 8px;
+}
+
+.panel::-webkit-scrollbar-thumb {
+  border-radius: 4px;
+}
+
+.panel::-webkit-scrollbar-track {
+  border-radius: 4px;
+}
+
+.input-group {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 14px;
+}
+
+.input-group label {
+  font-size: 14px;
+}
+
+.input-group input {
+  width: 90px;
+  padding: 6px 8px;
+  background: #111;
+  border: 1px solid #ff9800;
+  color: #ff9800;
+  border-radius: 6px;
+  outline: none;
+  font-size: 14px;
+}
+
+.input-group input:focus {
+  box-shadow: 0 0 8px rgba(255, 152, 0, 0.6);
+}
