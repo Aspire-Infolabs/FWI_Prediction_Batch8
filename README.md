@@ -32,7 +32,7 @@ warnings and improving wildfire preparedness.
 Python 3.9 or above<br>
 Code Editor: Visual Studio Code With Jupyter Notebook Extension(Recommended)<br>
 Web Browser: Google Chrome(Recommended)<br>
-Python Libraries(Check for requirement.txt)
+Python Libraries(Check requirements.txt)
 
 ### How to run the project locally
 Step 1: Clone the repository
