@@ -63,7 +63,7 @@ Predicting fire risk **in advance** enables authorities to take **preventive act
 
 ### 🔐 User Signup Page
 <p align="center">
-  <img src="images/signup.png" width="400">
+  <img src="https://github.com/user-attachments/assets/4fad324c-a447-4638-8773-889cd8d12cec" width="400">
 </p>
 
 ---
