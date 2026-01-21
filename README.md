@@ -7,32 +7,32 @@ machine learning model that can predict the FWI automatically. This will help in
 warnings and improving wildfire preparedness.
 
 ### Objectives
-• To study the weather factors that affect the Fire Weather Index (FWI). 
-• To clean and prepare the dataset for accurate analysis. 
-• To explore the data and understand its patterns. 
-• To build a machine learning model that can predict FWI. 
-• To test the model and improve its accuracy. 
-• To create a simple web app for making FWI predictions.
+• To study the weather factors that affect the Fire Weather Index (FWI).<br>
+• To clean and prepare the dataset for accurate analysis.<br> 
+• To explore the data and understand its patterns.<br> 
+• To build a machine learning model that can predict FWI.<br> 
+• To test the model and improve its accuracy.<br> 
+• To create a simple web app for making FWI predictions.<br>
 
 ### Input Features
-• ISI
-• DMC
-• BUI
-• DC
-• FFMC
-• Temperature
-• Rain
-• RH
-• Ws
+• ISI<br> 
+• DMC<br> 
+• BUI<br> 
+• DC<br>  
+• FFMC<br>
+• Temperature<br>
+• Rain<br>
+• RH<br>
+• Ws<br>
 
 ### Output Feature
 • FWI
 
 ### Software Required
-Python 3.9 or above
-Code Editor: Visual Studio Code With Jupyter Notebook Extension(Recommended)
-Web Browser: Google Chrome(Recommended)
-Python Libraries
+Python 3.9 or above<br>
+Code Editor: Visual Studio Code With Jupyter Notebook Extension(Recommended)<br>
+Web Browser: Google Chrome(Recommended)<br>
+Python Libraries(Check for requirement.txt)
 
 ### How to run the project locally
 Step 1: Clone the repository
@@ -68,13 +68,13 @@ http://127.0.0.1:5000/
 ```
 
 ### Results
-Home Page
+##### Home Page<br>
 <img width="900" height="550" alt="image" src="https://github.com/user-attachments/assets/2160b752-4f0b-494b-a400-d8e950b825fe" />
 
-About Page
+##### About Page<br>
 <img width="900" height="550" alt="image" src="https://github.com/user-attachments/assets/48077992-40f1-4caf-8c4e-0dd7befce112" />
 
-Predictor Page
+##### Predictor Page<br>
 <img width="900" height="550" alt="image" src="https://github.com/user-attachments/assets/624a0d9c-261a-4a7a-8ff4-1322eec107d7" />
 
 ### Conclusion
