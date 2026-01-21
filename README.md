@@ -5,7 +5,7 @@ Developed as part of the **Infosys Springboard Virtual Internship Program**.
 
 ---
 
-## 📌 Problem Statement
+##  Problem Statement
 
 Wildfires pose a serious threat to **ecosystems, human life, and property**.  
 The **Fire Weather Index (FWI)** is a globally used indicator to estimate forest fire danger based on **weather conditions and fuel moisture content**.
@@ -23,11 +23,11 @@ The system:
 
 ##  Project Outcomes
 
-- ✔️ Trained a **Ridge Regression** model to predict Fire Weather Index  
-- ✔️ Applied **StandardScaler** for feature normalization  
-- ✔️ Evaluated multiple regression models and selected the best performer  
-- ✔️ Deployed the trained model using a **Flask web application**  
-- ✔️ Displayed predicted FWI value along with **fire risk level, causes, and precautions**
+-  Trained a **Ridge Regression** model to predict Fire Weather Index  
+-  Applied **StandardScaler** for feature normalization  
+-  Evaluated multiple regression models and selected the best performer  
+-  Deployed the trained model using a **Flask web application**  
+-  Displayed predicted FWI value along with **fire risk level, causes, and precautions**
 
 ---
 
