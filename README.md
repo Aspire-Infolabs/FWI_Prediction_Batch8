@@ -76,6 +76,26 @@ The trained Ridge Regression model is evaluated using metrics such as R² score,
 
 The final optimized model and scaler are deployed using a Flask web application. Users enter environmental parameters through an input form, and the application processes the data to predict the Fire Weather Index. The predicted FWI value is displayed along with a corresponding fire risk level—Low, Moderate, High, or Extreme—making the system easy to understand and use.
 
+## Web Application Outputs:
+### index.html
+Home page of the Fire Weather Index Prediction System displaying the project overview and key features
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/5fa6b5e9-690b-47d3-8706-e620d0da9dc9" width="500" />
+</p>
+
+### home.html
+User input interface of the Fire Weather Index Prediction System allowing users to enter weather parameters for real-time FWI prediction
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/c05e15ce-5805-45ff-b59f-f40d2c0901e1" width="500" />
+</p>
+
+### Predicted FWI Result Page
+Result page of the Fire Weather Index Prediction System displaying the predicted FWI value along with the corresponding fire risk level
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/64b78c29-74eb-40b5-8d92-2e59c59a83ce" width="500" />
+</p>
+
 ## How To Run The Project
 ### Step 1: Clone the Repository
 
