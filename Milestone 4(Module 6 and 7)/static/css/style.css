@@ -1,0 +1,22 @@
+body{margin:0;font-family:Segoe UI;color:#fff;overflow-x:hidden}
+.hero-page,.input-bg,.result-bg{
+background:url('https://images.unsplash.com/photo-1503437313881-503a91226402') center/cover fixed;
+min-height:100vh}
+.dark-overlay{position:fixed;inset:0;background:rgba(0,0,0,.7)}
+.fire{position:fixed;inset:0;background:url('https://i.imgur.com/8bKQ8tN.gif') bottom center/cover;opacity:.35}
+.hero-content{text-align:center;padding-top:180px;position:relative;z-index:1}
+.hero-content h1{font-size:3.5rem;color:#ff9800}
+.cta{padding:16px 36px;background:linear-gradient(45deg,#ff5722,#ff9800);
+border-radius:40px;text-decoration:none;color:#000;font-weight:bold}
+.glass-card,.result-glass{
+width:900px;max-width:95%;margin:80px auto;padding:35px;
+background:rgba(255,255,255,.12);backdrop-filter:blur(12px);
+border-radius:25px;position:relative;z-index:1}
+.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:15px}
+input{padding:12px;border:none;border-radius:12px}
+button{margin-top:20px;width:100%;padding:14px;
+background:linear-gradient(45deg,#ff9800,#ff5722);
+border:none;border-radius:14px;font-weight:bold}
+.risk{margin:15px 0;padding:12px;border-radius:12px;font-weight:bold}
+.low{background:#2e7d32}.moderate{background:#f9a825}.high{background:#c62828}
+.back{color:#ffc107;text-decoration:none;display:inline-block;margin-top:20px}
