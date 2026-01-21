@@ -102,8 +102,18 @@ python app.py
 Step 5: Open Browser
 http://127.0.0.1:5000
 
+**SCREENSHOTS WEB APPLICATION:**
 
-**Conclusion**
+index.html
+
+<img width="1918" height="938" alt="indexpage" src="https://github.com/user-attachments/assets/0a666cdd-1a9a-4617-8808-12efb1590aca" />
+
+output.html
+
+<img width="1915" height="967" alt="image" src="https://github.com/user-attachments/assets/1a05eab9-2ea4-4bf1-849e-45f3ce3433f3" />
+
+
+**CONCLUSION**
 
 This project helped me understand:
 
