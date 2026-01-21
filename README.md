@@ -1,71 +1,137 @@
-Fire Weather Index (FWI) Predictor
-A Machine Learning–based web application to predict Fire Weather Index (FWI) using environmental and fire-danger parameters. Developed as part of the Infosys Springboard Virtual Internship Program.
+# 🔥 Fire Weather Index (FWI) Predictor
 
-Problem Statement:-
-Wildfires pose a serious threat to ecosystems, human life, and property. The Fire Weather Index (FWI) is a globally used indicator to estimate forest fire danger based on weather conditions and fuel moisture content.
+<p align="center">
+A Machine Learning–based web application to predict Fire Weather Index (FWI)  
+using environmental and meteorological parameters.
+</p>
 
-This project aims to develop an end-to-end Fire Weather Index prediction system using machine learning. The system processes key meteorological and fire-related parameters, predicts the FWI value, classifies fire risk levels, and presents the results through a user-friendly Flask web application. The goal is to support early warning, risk assessment, and informed decision-making for wildfire management.
+---
 
-Project Outcomes:-
+## 📌 Project Overview
 
-Trained a Ridge Regression model to predict Fire Weather Index
+Fire Weather Index (FWI) Predictor is an intelligent machine learning–based web application  
+designed to **predict wildfire risk** using weather and fuel conditions.
 
-Applied StandardScaler for consistent feature normalization
+It helps in:
+- 🌲 Early detection of forest fire risks  
+- ⚠️ Risk assessment & prevention  
+- 🧠 Decision-making for wildfire management  
 
-Evaluated multiple regression models and selected the best performer
+---
 
-Deployed the trained model using a Flask web application
+## ❓ Why FWI Prediction?
 
-Displayed predicted FWI value along with fire risk level, causes, and precautions
+Forest fires cause massive damage to:
+- Ecosystems 🌱  
+- Wildlife 🐾  
+- Human life & property 🏠  
 
-Features Used:-
-Temperature
-Relative Humidity (RH)
-Wind Speed
-Rainfall
-FFMC (Fine Fuel Moisture Code)
-DMC (Duff Moisture Code)
-DC (Drought Code)
-ISI (Initial Spread Index)
-BUI (Build-Up Index)
-System Requirements
-Hardware
+Predicting fire risk **in advance** enables authorities to take **preventive actions**.
 
-Processor: Intel Core i3 or higher
-RAM: Minimum 4 GB (8 GB recommended)
-Storage: At least 10 GB free disk space
-Software
+---
 
-Python 3.9+
-Flask
-Required Python libraries (see requirements.txt)
+## ⭐ Key Features
 
-WEB APPLICATION 
-1. User Signup Page
-<img width="672" height="449" alt="image" src="https://github.com/user-attachments/assets/4fad324c-a447-4638-8773-889cd8d12cec" />
+- ✔️ Machine Learning–based FWI prediction  
+- ✔️ Fire risk classification (Low / Moderate / High / Extreme)  
+- ✔️ Secure user **Login & Signup**  
+- ✔️ User-friendly web interface  
+- ✔️ Region-wise fire risk prediction  
 
+---
 
-2. User Login Page:
-<img width="706" height="446" alt="image" src="https://github.com/user-attachments/assets/836b3176-1400-4602-8cd4-b799e3f1a7d1" />
+## 🛠️ Technologies Used
 
+- **Python**
+- **Flask**
+- **Machine Learning**
+- **Scikit-learn**
+- **HTML**
+- **CSS**
 
-3.Home Page
-<img width="706" height="446" alt="image" src="https://github.com/user-attachments/assets/43bc96a5-e9f5-4139-8e6d-41d449a22465" />
+---
 
+## 👩‍💻 Project Details
 
-4.FWI Prediction Input Page:
-<img width="868" height="756" alt="image" src="https://github.com/user-attachments/assets/3e80f4c0-ceb0-473c-bb62-5a61587f3922" />
+- **Prepared By:** Tarigopula Sri Kavya  
+- **Mentor:** Praveen  
+- **Internship:** SpringBoard Internship Project  
 
+---
 
-5.PredictionResultPage
-<img width="634" height="576" alt="image" src="https://github.com/user-attachments/assets/79dda3e0-8fd1-4030-99b4-36c3e442a6af" />
+## 🖥️ Web Application Screens
 
+### 🔐 User Signup Page
+<p align="center">
+  <img src="images/signup.png" width="400">
+</p>
 
-WorkFlow Diagram
-<img width="1484" height="8191" alt="image" src="https://github.com/user-attachments/assets/12273a80-79e2-44cd-a96b-a249c5b8b7d3" />
+---
 
+### 🔑 User Login Page
+<p align="center">
+  <img src="images/login.png" width="400">
+</p>
 
+---
 
+### 🏠 Home Page
+<p align="center">
+  <img src="images/home.png" width="400">
+</p>
 
+---
 
+### 🔥 FWI Prediction Input Page
+<p align="center">
+  <img src="images/predict_input.png" width="400">
+</p>
 
+---
+
+### 📊 Prediction Result Page
+<p align="center">
+  <img src="images/result.png" width="400">
+</p>
+
+---
+
+## 📊 Model Information
+
+- Algorithm Used: **Ridge Regression**
+- Feature Scaling: **StandardScaler**
+- Target Variable: **Fire Weather Index (FWI)**
+
+---
+
+## 💻 System Requirements
+
+- **Processor:** Intel Core i3 or higher  
+- **RAM:** Minimum 4 GB  
+- **Storage:** At least 10 GB free space  
+
+---
+
+## 🧪 How to Run the Project
+
+```bash
+# Clone repository
+git clone https://github.com/Aspire-Infolabs/FWI_Prediction_Batch8.git
+
+# Navigate to project folder
+cd FWI_Flask_App
+
+# Create virtual environment
+python -m venv .venv
+
+# Activate virtual environment
+.venv\Scripts\activate   # Windows
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Train model (if needed)
+python save_model.py
+
+# Run application
+python app.py
