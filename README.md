@@ -41,12 +41,12 @@ Step 1: Clone the repository
 ```
 
 Step 2: Create a Virtual Environment<br>
-&nbsp;• Windows
+&nbsp;&nbsp; • Windows
   ```
   python -m venv venv
   venv\Scripts\activate
   ```
-&nbsp;• macOS / Linux
+&nbsp;&nbsp; • macOS / Linux
   ```
   python -m venv venv
   source venv/bin/activate
