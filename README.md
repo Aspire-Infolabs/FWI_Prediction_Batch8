@@ -9,3 +9,108 @@ This project helps users understand whether the current weather conditions indic
 The Fire Weather Index (FWI) is an internationally used numerical index that represents the potential intensity of a forest fire.
 It is calculated using meteorological parameters such as: Temperature ,Relative Humidity ,Wind Speed, Rainfall etc
 Higher FWI values indicate higher fire danger.
+
+**PROJECT OBJECTIVE**
+
+**.** To learn how real-world environmental data is used
+
+**.** To apply machine learning for prediction
+
+**.** To convert a trained ML model into a working web application
+
+**.** To make fire risk prediction simple and understandable
+
+**Technologies Used**
+
+**Programming & Libraries**
+
+-Python 
+
+-Pandas & NumPy
+
+-Scikit-learn
+
+-Matplotlib & Seaborn
+
+**Web Technologies**
+-Flask (Backend)
+
+-HTML & CSS (Frontend)
+
+**Tools**
+
+-VS Code
+
+-Jupyter Notebook
+
+
+<img width="436" height="761" alt="image" src="https://github.com/user-attachments/assets/df45b854-778b-43a3-9f44-93f101d3f7ce" />
+
+
+**Model Used: Ridge Regression**
+
+Ridge Regression helps control overfitting and works well with correlated features.
+
+Scaling: StandardScaler
+
+Evaluation: MAE, RMSE, R² Score
+
+Hyperparameter Used: Alpha (regularization strength)
+
+**Inputs parameters for Prediction**
+
+The user enters the following values:
+
+Temperature
+
+Relative Humidity (RH)
+
+Wind Speed (Ws)
+
+Rain
+
+FFMC
+
+DMC
+
+DC
+
+ISI
+
+BUI
+
+****How to Run the Project****
+
+Step 1: Clone the Repository
+
+git clone <your-repo-link>
+cd FWI_predictor
+
+Step 2: Create and Activate Virtual Environment
+
+python -m venv myenv
+myenv\Scripts\activate
+
+Step 3: Install Required Packages
+
+pip install -r requirements.txt
+
+Step 4: Run the Flask App
+
+python app.py
+
+Step 5: Open Browser
+http://127.0.0.1:5000
+
+
+**Conclusion**
+
+This project helped me understand:
+
+-How data affects forest fire risk
+
+-How machine learning models are built and evaluated
+
+-How to deploy a model as a web application
+
+It is a beginner-friendly machine learning project that connects theory with real-world application.
