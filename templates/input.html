@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>FWI Parameters</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body class="input-bg">
+<div class="fire"></div>
+<div class="dark-overlay"></div>
+<div class="glass-card">
+<h2>Fire Weather Parameters</h2>
+<form method="post" action="/predict">
+<div class="grid3">
+<input name="Temperature" placeholder="🌡 Temperature (°C)" required>
+<input name="RH" placeholder="💧 Humidity (%)" required>
+<input name="Wind" placeholder="🌬 Wind Speed (km/h)" required>
+<input name="Rain" placeholder="🌧 Rainfall (mm)" required>
+<input name="FFMC" placeholder="🔥 FFMC" required>
+<input name="DMC" placeholder="🌲 DMC" required>
+<input name="DC" placeholder="🌳 DC" required>
+<input name="ISI" placeholder="⚡ ISI" required>
+<input name="BUI" placeholder="📊 BUI" required>
+</div>
+<button>Analyze Fire Risk</button>
+</form>
+</div>
+</body>
+</html>
