@@ -28,7 +28,7 @@ The **FWI Predictor** is a machine learning-based system designed to predict the
 - **Data Serialization**: pickle
 
 ## Workflow
-Images/FWI.png
+![alt text](Images/FWI.png)
 
 ## Installation and Setup
 
