@@ -40,13 +40,13 @@ Step 1: Clone the repository
  git clone -b Pranjali https://github.com/Aspire-Infolabs/FWI_Prediction_Batch8.git
 ```
 
-Step 2: Create a Virtual Environment
- • Windows
+Step 2: Create a Virtual Environment<br>
+&nbsp;• Windows
   ```
   python -m venv venv
   venv\Scripts\activate
   ```
- • macOS / Linux
+&nbsp;• macOS / Linux
   ```
   python -m venv venv
   source venv/bin/activate
