@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>FWI Result</title>
+<style>
+    body{
+        font-family:Arial;
+        background:#7059ad;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        height:100vh;
+    }
+    .result-box{
+        background:#fff;
+        padding:30px;
+        border-radius:12px;
+        text-align:center;
+        box-shadow:0 10px 25px rgba(0,0,0,0.2);
+    }
+    h1{ color:green; }
+    a{
+        display:inline-block;
+        margin-top:20px;
+        text-decoration:none;
+        color:white;
+        background:#007bff;
+        padding:10px 20px;
+        border-radius:6px;
+    }
+</style>
+</head>
+
+<body>
+<div class="result-box">
+    <h2>FWI Prediction Result</h2>
+    <h1>{{ prediction }}</h1>
+    <a href="/">Predict Again</a>
+</div>
+</body>
+</html>

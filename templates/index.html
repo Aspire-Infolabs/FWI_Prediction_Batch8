@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>FWI Prediction</title>
+    <style>
+        body {
+            font-family: Arial;
+            background: linear-gradient(to right,#2193b0,#6dd5ed);
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            height:100vh;
+        }
+        .card {
+            background:#2193b0;
+            padding:25px;
+            width:420px;
+            border-radius:12px;
+            box-shadow:0 10px 25px rgba(0,0,0,0.2);
+        }
+        h2 { text-align:center; }
+        label { font-weight:bold; }
+        input {
+            width:100%;
+            padding:8px;
+            margin:6px 0 12px;
+            border-radius:6px;
+            border:1px solid #ccc;
+        }
+        button {
+            width:100%;
+            padding:10px;
+            background:#007bff;
+            color:#fff;
+            border:none;
+            border-radius:6px;
+            font-size:16px;
+            cursor:pointer;
+        }
+        button:hover { background:#0056b3; }
+    </style>
+</head>
+
+<body>
+<div class="card">
+    <h2>🔥 FWI Prediction</h2>
+
+    <form action="/predict" method="post">
+        <label>Temperature</label><input name="Temperature" required>
+        <label>RH</label><input name="RH" required>
+        <label>Wind Speed</label><input name="Ws" required>
+        <label>Rain</label><input name="Rain" required>
+        <label>FFMC</label><input name="FFMC" required>
+        <label>DMC</label><input name="DMC" required>
+        <label>DC</label><input name="DC" required>
+        <label>ISI</label><input name="ISI" required>
+        <label>Region Encoded</label><input name="Region_encoded" value="0">
+
+        <button type="submit">Predict FWI</button>
+    </form>
+</div>
+</body>
+</html>
