@@ -1,0 +1,95 @@
+# Fire Weather Index (FWI) Predictor
+Wildfires can spread quickly and cause heavy damage, so it is important to know the fire risk 
+in advance. The Fire Weather Index (FWI) helps measure how likely a fire is to start, but 
+calculating it manually is not always accurate or fast. To solve this, the aim of this project is 
+to use environmental factors like temperature, humidity, wind speed, and rainfall to build a 
+machine learning model that can predict the FWI automatically. This will help in giving early 
+warnings and improving wildfire preparedness.
+
+### Objectives
+• To study the weather factors that affect the Fire Weather Index (FWI). 
+• To clean and prepare the dataset for accurate analysis. 
+• To explore the data and understand its patterns. 
+• To build a machine learning model that can predict FWI. 
+• To test the model and improve its accuracy. 
+• To create a simple web app for making FWI predictions.
+
+### Input Features
+• ISI
+• DMC
+• BUI
+• DC
+• FFMC
+• Temperature
+• Rain
+• RH
+• Ws
+
+### Output Feature
+• FWI
+
+### Software Required
+Python 3.9 or above
+Code Editor: Visual Studio Code With Jupyter Notebook Extension(Recommended)
+Web Browser: Google Chrome(Recommended)
+Python Libraries
+
+### How to run the project locally
+Step 1: Clone the repository
+```
+ git clone -b Pranjali https://github.com/Aspire-Infolabs/FWI_Prediction_Batch8.git
+```
+
+Step 2: Create a Virtual Environment
+ • Windows
+  ```
+  python -m venv venv
+  venv\Scripts\activate
+  ```
+ • macOS / Linux
+  ```
+  python -m venv venv
+  source venv/bin/activate
+  ```
+
+Step 3: Install Required Libraries
+```
+pip install -r requirements.txt
+```
+
+Step 4: Run the Flask Application
+```
+python app.py
+```
+
+Step 5: Open in Browser
+```
+http://127.0.0.1:5000/
+```
+
+### Results
+Home Page
+<img width="900" height="550" alt="image" src="https://github.com/user-attachments/assets/2160b752-4f0b-494b-a400-d8e950b825fe" />
+
+About Page
+<img width="900" height="550" alt="image" src="https://github.com/user-attachments/assets/48077992-40f1-4caf-8c4e-0dd7befce112" />
+
+Predictor Page
+<img width="900" height="550" alt="image" src="https://github.com/user-attachments/assets/624a0d9c-261a-4a7a-8ff4-1322eec107d7" />
+
+### Conclusion
+
+This project demonstrates a complete end-to-end Machine Learning workflow, from data preprocessing 
+and model training to deployment using a Flask web application. It helped in understanding how real-world 
+environmental data can be used to predict the Fire Weather Index (FWI) and how ML models can be integrated 
+into practical applications. This project serves as a strong learning experience for beginners and provides 
+a foundation for building real-time predictive systems.
+
+
+
+
+
+
+
+
+
