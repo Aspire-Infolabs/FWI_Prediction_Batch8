@@ -18,7 +18,7 @@ warnings and improving wildfire preparedness.
 • ISI<br> 
 • DMC<br> 
 • BUI<br> 
-• DC<br>  
+• DC<br> 
 • FFMC<br>
 • Temperature<br>
 • Rain<br>
