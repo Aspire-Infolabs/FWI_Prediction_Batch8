@@ -1,0 +1,10 @@
+const c=document.getElementById("gauge");
+const ctx=c.getContext("2d");
+ctx.beginPath();
+ctx.arc(125,125,90,Math.PI,2*Math.PI);
+ctx.strokeStyle="#555";ctx.lineWidth=20;ctx.stroke();
+ctx.beginPath();
+ctx.arc(125,125,90,Math.PI,Math.PI+(Math.PI*0.7));
+ctx.strokeStyle="#ff5722";ctx.lineWidth=20;ctx.stroke();
+ctx.fillStyle="#fff";ctx.font="20px Arial";
+ctx.fillText("FWI Level",70,140);

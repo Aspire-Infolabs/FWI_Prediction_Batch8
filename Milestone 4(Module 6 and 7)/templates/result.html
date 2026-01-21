@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>FWI Result</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body class="result-bg">
+<div class="fire"></div>
+<div class="dark-overlay"></div>
+
+<audio id="alarm" src="{{ url_for('static', filename='audio/alarm.mp3') }}"></audio>
+
+<div class="result-glass">
+<h1>🔥 Fire Risk Assessment</h1>
+<h2>FWI Score: {{ prediction }}</h2>
+
+<canvas id="gauge" width="250" height="150"></canvas>
+
+<div class="risk {{ risk|lower }}">
+Risk Level: {{ risk }}
+</div>
+
+<canvas id="chart" height="120"></canvas>
+
+{% if risk=='High' %}
+<script>document.getElementById('alarm').play();</script>
+<p class="msg high-msg">🚨 EXTREME ALERT! Immediate action required.</p>
+{% elif risk=='Moderate' %}
+<p class="msg mid-msg">⚠ Moderate fire conditions. Stay alert.</p>
+{% else %}
+<p class="msg low-msg">✅ Low fire risk. Conditions stable.</p>
+{% endif %}
+
+<a href="/input" class="back">← New Analysis</a>
+</div>
+
+<script src="{{ url_for('static', filename='js/gauge.js') }}"></script>
+<script src="{{ url_for('static', filename='js/chart.js') }}"></script>
+</body>
+</html>
