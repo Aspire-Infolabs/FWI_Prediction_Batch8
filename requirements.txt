@@ -1,0 +1,1 @@
+python==3.11.9numpypandasmatplotlibseabornscikit-learnflaskpickle-mixin
