@@ -28,7 +28,7 @@ The **FWI Predictor** is a machine learning-based system designed to predict the
 - **Data Serialization**: pickle
 
 ## Workflow
-![alt text](Images/FWI.png)
+Images/FWI.png
 
 ## Installation and Setup
 
@@ -68,4 +68,5 @@ Predict page
 
 ## conclusion
 This project presents a Fire Weather Index (FWI) Prediction System using machine learning and Flask to assess forest fire risk based on key meteorological and fuel parameters. A Ridge Regression model was used to ensure stable and accurate predictions through effective preprocessing and feature scaling. The system demonstrates how machine learning and web technologies can support early fire risk assessment and environmental disaster prevention.
+
 
