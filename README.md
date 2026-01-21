@@ -50,7 +50,7 @@ WEB APPLICATION
 
 
 3.Home Page
-<img width="657" height="711" alt="image" src="https://github.com/user-attachments/assets/43bc96a5-e9f5-4139-8e6d-41d449a22465" />
+<img width="672" height="449" alt="image" src="https://github.com/user-attachments/assets/43bc96a5-e9f5-4139-8e6d-41d449a22465" />
 
 
 4.FWI Prediction Input Page:
