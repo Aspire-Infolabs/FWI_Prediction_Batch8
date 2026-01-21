@@ -47,12 +47,12 @@ The system:
 
 ##  System Requirements
 
-### 🔧 Hardware
+###  Hardware
 - **Processor:** Intel Core i3 or higher  
 - **RAM:** Minimum 4 GB (8 GB recommended)  
 - **Storage:** At least 10 GB free disk space  
 
-### 🧪 Software
+###  Software
 - **Python:** 3.9 or above  
 - **Flask**  
 - Required Python libraries (see `requirements.txt`)  
