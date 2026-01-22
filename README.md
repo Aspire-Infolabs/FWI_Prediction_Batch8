@@ -24,6 +24,12 @@ Web Application (Flask) Features:
  - Model inference using trained Ridge Regression model
  - Fire risk classification (Low, Moderate, High, Very High, Extreme)
 
+Software
+ - Operating System: Windows / Linux / macOS
+ - Programming Language: Python 3.11 (or above)
+ - Development Environment: VS Code with Jupyter Notebook extension
+ - Web Browser: Google Chrome / Firefox / Microsoft Edge
+
 Technologies Used
  - Python 3.11
  - Pandas, NumPy – Data handling
@@ -37,14 +43,19 @@ Run the Project
   1.Clone the repository
   
       git clone https://github.com/your-username/fwi-prediction-system.git
-     
       cd fwi-prediction-system
       
   2.Create and activate a virtual environment
-  
-      python3 -m venv venv
-      
-      source venv/bin/activate
+
+     - Windows
+
+       python -m venv venv
+       venv\Scripts\activate
+
+     - macOS/Linux
+     
+       python3 -m venv venv
+       source venv/bin/activate
       
   3.Install dependencies:
   
@@ -74,6 +85,20 @@ WORKFLOW
 
 <img width="271" height="941" alt="fwi drawio" src="https://github.com/user-attachments/assets/2e7c7f02-8d13-4092-8f01-62ac3930a63b" />
 
+Input Features
+ - Temperature – Ambient air temperature
+ - RH – Relative Humidity
+ - Ws – Wind Speed
+ - Rain – Rainfall
+ - FFMC – Fine Fuel Moisture Code
+ - DMC – Duff Moisture Code
+ - DC – Drought Code
+ - ISI – Initial Spread Index
+ - BUI – Buildup Index
+
+Target Variable
+  FWI (Fire Weather Index)
+ 
 WEBPAGE
 
 <img width="1286" height="929" alt="Screenshot 2026-01-18 224546" src="https://github.com/user-attachments/assets/ad74eea3-8a63-45ad-b70b-bc79943c92a1" />
