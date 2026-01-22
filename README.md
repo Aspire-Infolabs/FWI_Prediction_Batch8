@@ -2,14 +2,6 @@
 
 A Machine Learning–powered Fire Weather Index Predictor with a Flask-based web interface that estimates wildfire risk using environmental and meteorological parameters. This project delivers an end-to-end ML pipeline, from data preprocessing to real-time deployment, designed for early wildfire risk assessment.
 
-## Overview
-
-Wildfires pose a significant threat to ecosystems, human life, and property across the globe. Rising temperatures, changing climate patterns, and dry weather conditions have increased the frequency and intensity of forest fires in recent years. The Fire Weather Index (FWI) is a scientifically recognized metric used by meteorological and environmental agencies to estimate wildfire risk based on weather conditions and fuel moisture levels. This project presents an end-to-end Fire Weather Index Prediction System that applies machine learning techniques to predict FWI values accurately and make wildfire risk assessment accessible through a user-friendly web application.
-
-## Problem Statement
-
-Predicting wildfire risk at an early stage is crucial for disaster prevention and environmental protection. However, traditional wildfire assessment methods are often complex, time-consuming, and not easily accessible to the general public or field officers. There is a need for an automated, data-driven system that can analyze environmental conditions and instantly predict fire danger levels. This project addresses this challenge by developing a machine learning-based Fire Weather Index predictor and deploying it as a Flask web application, allowing users to input weather parameters and obtain real-time fire risk predictions.
-
 ## Project Objectives
 
 The main objective of this project is to design and deploy a reliable machine learning model capable of predicting the Fire Weather Index using environmental data. The project aims to preprocess and clean real-world datasets, apply appropriate feature scaling techniques, train and evaluate multiple regression models, and select the best-performing model. Another key objective is to deploy the trained model using Flask to ensure the system is easy to use, interpretable, and accessible to non-technical users.
@@ -52,31 +44,8 @@ The main objective of this project is to design and deploy a reliable machine le
   <img src="https://github.com/user-attachments/assets/e76213e7-4e71-4d15-bbe7-2aba62c5291b" width="500" />
 </p>
 
-### Data Collection
 
-The workflow begins with collecting historical wildfire data from the Algerian Forest Fires dataset available on Kaggle. This dataset includes essential weather-related features such as temperature, humidity, wind speed, rainfall, and fire weather indices. The collected data serves as the foundation for training the machine learning model.
-
-### Data Preprocessing
-
-After data collection, the dataset is cleaned to improve quality and reliability. Missing values are handled appropriately, and outliers are removed using the Interquartile Range (IQR) method. Categorical features such as region are encoded into numerical format. The cleaned dataset is then saved for consistent use during model training.
-
-### Feature Engineering and Scaling
-
-Feature selection is performed by analyzing correlations between input variables and the Fire Weather Index. The most influential features are retained for modeling. To ensure all features contribute equally to the model, numerical values are standardized using the StandardScaler technique. This step improves model stability and performance.
-
-### Model Training
-
-Multiple regression models, including Linear Regression, Lasso Regression, Random Forest Regression, and Ridge Regression, are trained and evaluated. Ridge Regression is selected as the final model because it effectively handles multicollinearity and reduces overfitting. Hyperparameter tuning using GridSearchCV further enhances prediction accuracy.
-
-### Model Evaluation and Optimization
-
-The trained Ridge Regression model is evaluated using metrics such as R² score, Root Mean Squared Error (RMSE), and Mean Absolute Error (MAE). Actual versus predicted value plots are analyzed to verify consistency and accuracy across different fire risk levels. This evaluation ensures the model is reliable before deployment.
-
-### Deployment and User Interaction
-
-The final optimized model and scaler are deployed using a Flask web application. Users enter environmental parameters through an input form, and the application processes the data to predict the Fire Weather Index. The predicted FWI value is displayed along with a corresponding fire risk level—Low, Moderate, High, or Extreme—making the system easy to understand and use.
-
-## Web Application Outputs:
+## Web Application UI:
 ### index.html
 Home page of the Fire Weather Index Prediction System displaying the project overview and key features
 
@@ -161,4 +130,11 @@ Enter the weather parameters such as temperature, humidity, wind speed, rainfall
 ## Conclusion
 
 This project successfully demonstrates the application of machine learning for wildfire risk prediction. By combining effective data preprocessing, Ridge Regression modeling, and Flask-based deployment, the Fire Weather Index Prediction System provides an accurate, reliable, and user-friendly solution for early wildfire risk assessment. The system highlights how data-driven approaches can support environmental monitoring and disaster prevention efforts.
+
+## Author
+
+Mallisetti Meghana  
+Developed as part of the Infosys Springboard Internship Program.  
+Focused on building an end-to-end Fire Weather Index (FWI) prediction system using Machine Learning and Flask for real-time wildfire risk assessment.
+
 
