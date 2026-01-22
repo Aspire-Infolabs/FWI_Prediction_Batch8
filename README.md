@@ -3,7 +3,7 @@
 * This project is a Flask web application that uses machine learning to forecast the Fire Weather Index (FWI) based on meteorological data.
 * The program runs on a local network and was created and tested in a Windows environment. 
 
-# 1. Project Description:
+# 1) Project Description:
 
 * This project is a Flask web application that uses a machine learning model to forecast the Forest Fire Weather Index (FWI).
 * The user enters weather-related values in a form, and the application calculates and displays the predicted FWI value. 
@@ -22,19 +22,19 @@ HTML
 CSS
 Machine Learning (Ridge Regression)
 
-# 2. System Requirements:
+# 2) System Requirements:
 
 A)Hardware Requirements:
 1.Minimum 4 GB RAM
 2.Any standard laptop or desktop computer
 
 B)Software Requirements:
-1.Operating System: Windows
-2.Python Version: Python 3.9 or above
-3.Web Browser: Google Chrome / Microsoft Edge
-4.Code Editor (optional): VS Code
+1.Operating System: Windows, 
+2.Python Version: Python 3.9 or above, 
+3.Web Browser: Google Chrome / Microsoft Edge, 
+4.Code Editor (optional): VS Code.
 
-# 3. Steps to Run the FWI Flask Application:
+# 3) Steps to Run the FWI Flask Application:
 
 Step 1: Open Command Prompt / PowerShell
 ```bash
@@ -73,7 +73,7 @@ http://127.0.0.1:5000/
 * The application runs completely on the local system.
 
 
-# 4. How the Application Works:
+# 4) How the Application Works:
 1.User enters fire weather parameters in the web form
 2.Input values are scaled using scaler.pkl
 3.Prediction is performed using the trained Ridge Regression model (ridge.pkl)
