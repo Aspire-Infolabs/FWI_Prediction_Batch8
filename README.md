@@ -33,7 +33,7 @@ The application outputs:
 - **Visual Indicators**: Gauge chart and color-coded risk bar for easy interpretation
 
 ## Workflow Of FWI Predictor
-  ![FWI Predictor App workflow](imagess/Workflow.png)
+  ![FWI Predictor App workflow](images/Workflow.png)
 
 ## Software Requirements
 
@@ -154,5 +154,6 @@ The Fire Weather Index is a numeric rating that indicates the potential for wild
 - `POST /predict`: Accepts JSON with input features, returns FWI prediction
 - `GET /health`: Health check endpoint
 - `GET /<filename>`: Serves static files (CSS, JS, etc.)
+
 
 
