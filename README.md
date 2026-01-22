@@ -72,9 +72,7 @@ Frontend: HTML5, CSS3
 1.Clone the repository
  
  git clone -b Vanshika011111 https://github.com/Aspire-Infolabs/FWI_Prediction_Batch8.git
-
-2.Navigate to the project folder
-
+ 
  cd FWI_Prediction_Batch8
 
 3.Install dependencies
