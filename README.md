@@ -4,38 +4,22 @@ A Machine Learning–based web application that predicts the Fire Weather Index 
 
 
 
-📌 Project Overview
+📌 Project Statement
 
-Wildfires are strongly influenced by weather and environmental conditions. This project focuses on building an intelligent system that predicts the Fire Weather Index (FWI) using historical data and machine learning techniques.
-The project covers the complete ML lifecycle — from data collection and preprocessing to model training, evaluation, and deployment using a Flask web application.
-This project was developed as part of the Infosys Springboard Virtual Internship Program.
+Wildfires are strongly influenced by weather and environmental conditions. This project focuses on building an intelligent system that predicts the Fire Weather Index (FWI) using historical data and machine learning techniques.The project covers the complete ML lifecycle — from data collection and preprocessing to model training, evaluation, and deployment using a Flask web application.This project was developed as part of the Infosys Springboard Virtual Internship Program.
 
 
 
-🎯 Objectives
+🎯 Problem Outcomes
 
-a.To analyze weather and fire-related data affecting wildfire behavior.
-b.To build a reliable ML model for predicting Fire Weather Index (FWI).
-c.To deploy the trained model as a user-friendly web application.
-d.To classify wildfire risk into Low, Moderate, High, and Extreme levels.
-
-
-
-🧠 Machine Learning Approach
-
-Dataset: Algerian Forest Fire Dataset
-Target Variable: Fire Weather Index (FWI)
-
-Models Implemented:
-Linear Regression
-Ridge Regression ✅ (Final Model)
-Lasso Regression
-Random Forest Regression
-Ridge Regression was selected for deployment due to its ability to handle multicollinearity and provide strong generalization performance.
+a.Analysed weather and fire-related data affecting wildfire behavior.
+b.Build a reliable ML model for predicting Fire Weather Index (FWI).
+c.Deployed the trained model as a user-friendly web application.
+d.Classified wildfire risk into Low, Moderate, High, and Extreme levels.
 
 
 
-⚙️ Features Used for Prediction
+⚙️ Features Used 
 
 Temperature
 
@@ -57,18 +41,6 @@ BUI
 
 
 
-📊 Model Performance (Ridge Regression)
-
-R² Score: ~0.986
-
-RMSE: ~0.74
-
-MAE: ~0.55
-
-The model shows high accuracy and consistent performance across validation tests.
-
-
-
 🌐 Web Application (Flask)
 
 The Flask-based web app allows users to:
@@ -86,11 +58,6 @@ c.View a clear risk classification.
 🟠 High
 
 🔴 Extreme
-
-The app follows the MVC architecture:
-Model: ridge.pkl, scaler.pkl
-Controller: app.py
-View: HTML + CSS frontend
 
 
 
