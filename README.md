@@ -97,7 +97,7 @@ Input Features
  - BUI – Buildup Index
 
 Target Variable
-  FWI (Fire Weather Index)
+ - FWI (Fire Weather Index)
  
 WEBPAGE
 
@@ -115,6 +115,6 @@ Future Scope
 Conclusion
   This project successfully demonstrates an end-to-end machine learning pipeline for predicting the Fire Weather Index (FWI) using meteorological data. By integrating a trained and optimized Ridge Regression model into a Flask web application, the system enables real-time fire risk prediction with clear risk classification. The project highlights practical skills in data preprocessing, model evaluation, deployment, and reproducibility.
 
-Author
- Srinanda C S
+Author 
+ Srinanda C S 
  Infosys Springboard Internship Project
