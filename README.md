@@ -84,6 +84,7 @@ cd FWI_predictor
 Step 2: Create and Activate Virtual Environment
 
 python -m venv myenv
+
 myenv\Scripts\activate
 
 Step 3: Install Required Packages
