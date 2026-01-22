@@ -100,10 +100,12 @@ cd FWI_Prediction_Batch8
 
 ### Windows
 python -m venv venv
+
 venv\Scripts\activate
 
 ### macOS / Linux
-python3 -m venv venv
+python3 -m venv venv and
+
 source venv/bin/activate
 
 ### Install Dependencies
