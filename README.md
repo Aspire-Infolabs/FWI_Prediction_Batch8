@@ -63,7 +63,7 @@ Articles <img width="1877" height="831" alt="Screenshot 2026-01-18 054218" src="
 **How to Run the Project Locally**
 1. Clone the Repository
    ```
-  git clone -b sneha_Potukuchi https://github.com/Aspire-Infolabs/FWI_Prediction_Batch8.git
+   git clone -b sneha_Potukuchi https://github.com/Aspire-Infolabs/FWI_Prediction_Batch8.git
    
 3. Create a Virtual Environment
    * Windows
