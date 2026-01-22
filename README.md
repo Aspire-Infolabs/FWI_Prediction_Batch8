@@ -30,30 +30,51 @@ The **FWI Predictor** is a machine learning-based system designed to predict the
 ## Workflow
 ![alt text](Images/FWI.png)
 
+
+## Installation and Setup
+### Step 1: Clone the Repository
+
+```bash
+git clone https://github.com/yourusername/fire-weather-index.git
+cd 
+```
+### Step 2: Create a Virtual Environment
+ 
+```bash 
+python -m venv venv
+```
+### Step 3: Activate the Virtual Environment
+
+Activate the virtual environment based on your operating system.
+
+```bash 
+# Windows
+venv\Scripts\activate
+```
+```bash 
+# macOS / Linux
+source venv/bin/activate
+```
+### Step 4: Install Required Dependencies
+
+Install all necessary Python libraries listed in the requirements.txt file.
+
+```bash 
+pip install -r requirements.txt'
+```
+### Step 5: Run the Flask Application
+
+```bash 
+python app.py
+```
+### Step 6: Open the Application in Browser
+
+Access the application using the local development URL.
+```bash 
+`http://127.0.0.1:5000`
+```
 ## Installation and Setup
 
-1. Clone or Extract the Project
-
-2. Create and Activate Virtual Environment
-
-Windows
-python -m venv env
-env\Scripts\activate
-
-Linux/macOS
-python -m venv env
-source env/bin/activate
-
-3. Install Dependencies
-
-pip install -r requirements.txt
-pip install flask flask-cors
-
-4.Running the Web Application
-
-python app.py
-
-Then navigate to `http://127.0.0.1:5000` in your browser to use the prediction interface.
 
 ## Web Application Output Screens
 
@@ -68,5 +89,6 @@ Predict page
 
 ## conclusion
 This project presents a Fire Weather Index (FWI) Prediction System using machine learning and Flask to assess forest fire risk based on key meteorological and fuel parameters. A Ridge Regression model was used to ensure stable and accurate predictions through effective preprocessing and feature scaling. The system demonstrates how machine learning and web technologies can support early fire risk assessment and environmental disaster prevention.
+
 
 
