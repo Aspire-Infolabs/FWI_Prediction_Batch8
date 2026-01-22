@@ -79,6 +79,7 @@ BUI
 Step 1: Clone the Repository
 
 git clone -b Devinandhana https://github.com/Aspire-infolabs/FWI_Prediction_Batch8.git
+cd FWI_predictor
 
 Step 2: Create and Activate Virtual Environment
 
