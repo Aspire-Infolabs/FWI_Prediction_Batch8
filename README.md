@@ -93,8 +93,18 @@ Result visualization with charts
 ## How to Run the Project Locally
 
 ### Clone Repository
-git clone https://github.com/your-username/FWI-Predictor.git
-cd FWI-Predictor
+git clone -b U-P-Mahendra https://github.com/Aspire-Infolabs/FWI_Prediction_Batch8.git
+cd FWI_Prediction_Batch8
+
+### Create and activate an Virtual Environment
+
+### Windows
+python -m venv venv
+venv\Scripts\activate
+
+### macOS / Linux
+python3 -m venv venv
+source venv/bin/activate
 
 ### Install Dependencies
 pip install -r requirements.txt
