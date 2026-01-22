@@ -119,13 +119,13 @@ http://127.0.0.1:5000/
 * The model predicts the Fire Weather Index (FWI).
 * The predicted FWI value is displayed on the result page.
 
-# Conclusion:
+# 5) Conclusion:
 
 * Using a Flask web application, this example effectively illustrates how to deploy a machine learning model.
 * The system offers a useful method for estimating the Fire Weather Index by combining preprocessing, feature scaling, and Ridge Regression prediction.
 * The tool is easy to use, effective, and appropriate for demonstration and academic settings.
 
-# Author: Manyatha N
+# 6) Author: Manyatha N
 ## Academic Project – Forest Fire Weather Index (FWI) Prediction
 ## Developed as part of the Infosys Springboard Internship Program
 
