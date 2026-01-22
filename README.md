@@ -24,8 +24,7 @@ d.Classified wildfire risk into Low, Moderate, High, and Extreme levels.
 
 🔁 System Flow Chart
 
-The following flow chart represents the end-to-end working of the Fire Weather Index Predictor, starting from user interaction to final risk classification.
-This flow explains what happens before the Home page, during input processing, and at the result stage.
+The following flow chart represents the end-to-end working of the Fire Weather Index Predictor, starting from user interaction to final risk classification.This flow explains what happens before the Home page, during input processing, and at the result stage.
 
 <img width="1024" height="1536" alt="final Flowchart" src="https://github.com/user-attachments/assets/ac7cb51e-277c-4ab3-babc-d336790c17d0" />
 
@@ -73,15 +72,15 @@ Frontend: HTML5, CSS3
  
  cd FWI_Prediction_Batch8
 
-3.Install dependencies
+2.Install dependencies
 
 pip install flask numpy
 
-4.Run the Flask app
+3.Run the Flask app
 
 python app.py
 
-5.Open your browser and go to
+4.Open your browser and go to
 
 http://127.0.0.1:5000/
 
@@ -132,7 +131,9 @@ This project successfully demonstrates the complete development and deployment o
 👩‍💻 Author
 
 Vanshika Yadav
+
 Infosys Springboard Virtual Internship Program
+
 Guided by: Mentor Praveen
 
 
