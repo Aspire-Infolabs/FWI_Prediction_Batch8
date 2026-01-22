@@ -1,37 +1,147 @@
-This repository contains a machine learning model built using scikit-learn to predict the Fire Weather Index (FWI) based on various meteorological and environmental factors. The dataset includes columns such as Day, Month, Year, Temperature, Relative Humidity (RH), Wind Speed (WS), Rain, Classes, Region and several indices (FFMC, DMC, DC, ISI, BUI,FWI). The model aims to predict the FWI, which is crucial for wildfire risk assessment.
+🔥 Fire Weather Index (FWI) Predictor
 
-Dataset
-The dataset contains the following columns:
+A Machine Learning–based web application that predicts the Fire Weather Index (FWI) using environmental and fire-danger parameters. The system helps assess wildfire risk levels and supports early warning and decision-making for forest fire management.
 
-Day: Day of the observation.
+📌 Project Overview
 
-Month: Month of the observation.
+Wildfires are strongly influenced by weather and environmental conditions. This project focuses on building an intelligent system that predicts the Fire Weather Index (FWI) using historical data and machine learning techniques.
 
-Year: Year of the observation.
+The project covers the complete ML lifecycle — from data collection and preprocessing to model training, evaluation, and deployment using a Flask web application.
 
-Temperature: Temperature in Celsius.
+This project was developed as part of the Infosys Springboard Virtual Internship Program.
 
-RH: Relative Humidity (%) - The percentage of moisture in the air.
+🎯 Objectives
 
-Ws: Wind Speed (km/h).
+To analyze weather and fire-related data affecting wildfire behavior
 
-Rain: Rainfall (mm).
+To build a reliable ML model for predicting Fire Weather Index (FWI)
 
-FFMC: Fine Fuel Moisture Code - Represents moisture content in fine fuels.
+To deploy the trained model as a user-friendly web application
 
-DMC: Duff Moisture Code - Represents moisture in the duff (organic material on the forest floor).
+To classify wildfire risk into Low, Moderate, High, and Extreme levels
 
-DC: Drought Code - Indicates long-term drying trends in the forest.
+🧠 Machine Learning Approach
 
-ISI: Initial Spread Index - Reflects the rate of fire spread in fine fuels.
+Dataset: Algerian Forest Fire Dataset
 
-BUI: Build Up Index - Reflects the amount of fuel available for combustion.
+Target Variable: Fire Weather Index (FWI)
 
-FWI: Fire Weather Index - The target variable for the prediction model.
+Models Implemented:
 
-Classes: Class label (Feu ou Pas Feu) indicating if a fire occurred or not.
+Linear Regression
 
-Region:Bejaia and Sidi-Bel Abbes.
+Ridge Regression ✅ (Final Model)
 
-Objective:
-The goal is to create a machine learning model using scikit-learn that predicts the FWI based on the features from the dataset. The FWI is a crucial metric used to evaluate fire risk, and predicting it accurately can aid in fire prevention and response strategies.
+Lasso Regression
+
+Random Forest Regression
+
+Ridge Regression was selected for deployment due to its ability to handle multicollinearity and provide strong generalization performance.
+
+⚙️ Features Used for Prediction
+
+Temperature
+
+Relative Humidity (RH)
+
+Wind Speed (Ws)
+
+Rain
+
+FFMC
+
+DMC
+
+DC
+
+ISI
+
+BUI
+
+📊 Model Performance (Ridge Regression)
+
+R² Score: ~0.986
+
+RMSE: ~0.74
+
+MAE: ~0.55
+
+The model shows high accuracy and consistent performance across validation tests.
+
+🌐 Web Application (Flask)
+
+The Flask-based web app allows users to:
+
+Enter real-time environmental values
+
+Get an instant FWI prediction
+
+View a clear risk classification:
+
+🔵 Low
+
+🟡 Moderate
+
+🟠 High
+
+🔴 Extreme
+
+The app follows the MVC architecture:
+
+Model: ridge.pkl, scaler.pkl
+
+Controller: app.py
+
+View: HTML + CSS frontend
+
+🛠️ Tech Stack
+
+Programming Language: Python
+
+Libraries:
+
+pandas, numpy
+
+matplotlib, seaborn
+
+scikit-learn
+
+Web Framework: Flask
+
+Deployment Tools: Gunicorn
+
+Frontend: HTML5, CSS3
+
+🚀 How to Run the Project Locally
+
+Clone the repository
+
+git clone https://github.com/your-username/fwi-predictor.git
+
+
+Navigate to the project folder
+
+cd fwi-predictor
+
+
+Install dependencies
+
+pip install flask numpy
+
+
+Run the Flask app
+
+python app.py
+
+
+Open your browser and go to
+
+http://127.0.0.1:5000/
+
+🔁 System Flow Chart
+
+The following flow chart represents the end-to-end working of the Fire Weather Index Predictor, starting from user interaction to final risk classification.
+
+This flow explains what happens before the Home page, during input processing, and at the result stage.
+
+<img width="1024" height="1536" alt="final Flowchart" src="https://github.com/user-attachments/assets/ac7cb51e-277c-4ab3-babc-d336790c17d0" />
