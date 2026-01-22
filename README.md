@@ -38,13 +38,21 @@ Ridge Regression was selected for deployment due to its ability to handle multic
 ⚙️ Features Used for Prediction
 
 Temperature
+
 Relative Humidity (RH)
+
 Wind Speed (Ws)
+
 Rain
+
 FFMC
+
 DMC
+
 DC
+
 ISI
+
 BUI
 
 
@@ -56,6 +64,7 @@ R² Score: ~0.986
 RMSE: ~0.74
 
 MAE: ~0.55
+
 The model shows high accuracy and consistent performance across validation tests.
 
 
