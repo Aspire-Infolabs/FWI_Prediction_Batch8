@@ -124,9 +124,7 @@ HIGH FWI VALUE
 
 ✅ Conclusion
 
-This project successfully demonstrates the complete development and deployment of a Fire Weather Index (FWI) Prediction System using machine learning. By analyzing key environmental and fire-related parameters such as temperature, humidity, wind speed, rainfall, and fire danger indices, the system is able to accurately predict the Fire Weather Index and classify wildfire risk levels.It can assist forest departments, disaster management authorities, researchers, and environmental planners in early detection, preparedness, and informed decision-making. With further enhancements such as real-time data integration and advanced models, the system can be extended into a powerful tool for wildfire monitoring and prevention.
-
-
+This project successfully demonstrates the complete development and deployment of a Fire Weather Index (FWI) Prediction System using machine learning. By analyzing key environmental and fire-related parameters such as temperature, humidity, wind speed, rainfall, and fire danger indices, the system is able to accurately predict the Fire Weather Index and classify wildfire risk levels.It can assist forest departments, disaster management authorities, researchers, and environmental planners in early detection, preparedness, and informed decision-making. 
 
 👩‍💻 Author
 
