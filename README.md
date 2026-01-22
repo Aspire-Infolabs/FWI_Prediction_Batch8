@@ -71,7 +71,7 @@ Result page of the Fire Weather Index Prediction System displaying the predicted
 Use Git to download the project source code to your local system.
 
 ```bash
-git clone https://github.com/yourusername/fire-weather-index.git
+git clone -b Meghana https://github.com/yourusername/fire-weather-index.git
 cd fire-weather-index
 ```
 ### Step 2: Create a Virtual Environment
