@@ -57,11 +57,9 @@ BUI
 
 Programming Language: Python
 
-Libraries:pandas, numpymatplotlib, seabornscikit-learn
+Libraries:pandas, numpy, matplotlib, seaborn, scikit-learn
 
 Web Framework: Flask
-
-Deployment Tools: Gunicorn
 
 Frontend: HTML5, CSS3
 
