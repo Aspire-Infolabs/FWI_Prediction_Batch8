@@ -124,16 +124,6 @@ HIGH FWI VALUE
 
 ![A22](https://github.com/user-attachments/assets/7111a807-cf0e-4ca2-9a90-3884fbb28c82)
 
-MODERATE FWI VALUE
-
-
-![A44](https://github.com/user-attachments/assets/a52fe1cd-0b27-492b-90cc-d85d1c57f4fb)
-
-EXTREME FWI VALUE
-
-
-![A66](https://github.com/user-attachments/assets/288c4c84-25db-4447-8b81-492807b3cef8)
-
 
 
 ✅ Conclusion
