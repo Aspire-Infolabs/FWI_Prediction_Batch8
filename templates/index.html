@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fire Weather Index Prediction System</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Theme Toggle -->
+    <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+        <i class="fas fa-moon" id="themeIcon"></i>
+    </button>
+
+    <!-- Landing Section -->
+    <section class="landing-section" id="landing">
+        <div class="background-overlay"></div>
+        <div class="landing-content">
+            <h1 class="app-title">
+                <i class="fas fa-fire"></i>
+                Fire Weather Index Prediction System
+            </h1>
+            <p class="app-subtitle">AI-based wildfire risk assessment</p>
+            <button class="cta-button" onclick="scrollToForm()">
+                <span>Predict Fire Risk</span>
+                <i class="fas fa-arrow-down"></i>
+            </button>
+        </div>
+    </section>
+
+    <!-- Main Container -->
+    <div class="container">
+        <!-- Input Form Section -->
+        <section class="form-section" id="formSection">
+            <div class="form-card">
+                <h2 class="section-title">
+                    <i class="fas fa-sliders-h"></i>
+                    Input Parameters
+                </h2>
+                
+                <form id="predictionForm" class="prediction-form">
+                    <div class="form-grid">
+                        <!-- Temperature -->
+                        <div class="input-group">
+                            <label for="Temperature">
+                                <i class="fas fa-thermometer-half"></i>
+                                Temperature (°C)
+                                <span class="tooltip" data-tooltip="Ambient air temperature in Celsius">
+                                    <i class="fas fa-info-circle"></i>
+                                </span>
+                            </label>
+                            <div class="input-wrapper">
+                                <input type="number" id="Temperature" name="Temperature" value="29" min="0" max="50" step="0.1" class="primary-input" placeholder="Enter temperature">
+                                <input type="range" id="TemperatureSlider" min="0" max="50" value="29" step="0.1" class="slider-input">
+                            </div>
+                            <div class="range-labels">
+                                <span>0°C</span>
+                                <span>50°C</span>
+                            </div>
+                        </div>
+
+                        <!-- Relative Humidity (RH) -->
+                        <div class="input-group">
+                            <label for="RH">
+                                <i class="fas fa-tint"></i>
+                                RH - Relative Humidity (%)
+                                <span class="tooltip" data-tooltip="Percentage of moisture in the air">
+                                    <i class="fas fa-info-circle"></i>
+                                </span>
+                            </label>
+                            <div class="input-wrapper">
+                                <input type="number" id="RH" name="RH" value="57" min="0" max="100" step="1" class="primary-input" placeholder="Enter RH">
+                                <input type="range" id="RHSlider" min="0" max="100" value="57" step="1" class="slider-input">
+                            </div>
+                            <div class="range-labels">
+                                <span>0%</span>
+                                <span>100%</span>
+                            </div>
+                        </div>
+
+                        <!-- Wind Speed (Ws) -->
+                        <div class="input-group">
+                            <label for="Ws">
+                                <i class="fas fa-wind"></i>
+                                Ws - Wind Speed (km/h)
+                                <span class="tooltip" data-tooltip="Average wind speed in kilometers per hour">
+                                    <i class="fas fa-info-circle"></i>
+                                </span>
+                            </label>
+                            <div class="input-wrapper">
+                                <input type="number" id="Ws" name="Ws" value="18" min="0" max="100" step="0.1" class="primary-input" placeholder="Enter wind speed">
+                                <input type="range" id="WsSlider" min="0" max="100" value="18" step="0.1" class="slider-input">
+                            </div>
+                            <div class="range-labels">
+                                <span>0 km/h</span>
+                                <span>100 km/h</span>
+                            </div>
+                        </div>
+
+                        <!-- Rain -->
+                        <div class="input-group">
+                            <label for="Rain">
+                                <i class="fas fa-cloud-rain"></i>
+                                Rain (mm)
+                                <span class="tooltip" data-tooltip="Precipitation amount in millimeters">
+                                    <i class="fas fa-info-circle"></i>
+                                </span>
+                            </label>
+                            <div class="input-wrapper">
+                                <input type="number" id="Rain" name="Rain" value="0.0" min="0" max="50" step="0.1" class="primary-input" placeholder="Enter rain">
+                                <input type="range" id="RainSlider" min="0" max="50" value="0" step="0.1" class="slider-input">
+                            </div>
+                            <div class="range-labels">
+                                <span>0 mm</span>
+                                <span>50 mm</span>
+                            </div>
+                        </div>
+
+                        <!-- FFMC -->
+                        <div class="input-group">
+                            <label for="FFMC">
+                                <i class="fas fa-fire"></i>
+                                FFMC
+                                <span class="tooltip" data-tooltip="Fine Fuel Moisture Code (0-101.2)">
+                                    <i class="fas fa-info-circle"></i>
+                                </span>
+                            </label>
+                            <div class="input-wrapper">
+                                <input type="number" id="FFMC" name="FFMC" value="65.7" min="0" max="101.2" step="0.1" class="primary-input" placeholder="Enter FFMC">
+                                <input type="range" id="FFMCSlider" min="0" max="101.2" value="65.7" step="0.1" class="slider-input">
+                            </div>
+                            <div class="range-labels">
+                                <span>0</span>
+                                <span>101.2</span>
+                            </div>
+                        </div>
+
+                        <!-- DMC -->
+                        <div class="input-group">
+                            <label for="DMC">
+                                <i class="fas fa-fire"></i>
+                                DMC
+                                <span class="tooltip" data-tooltip="Duff Moisture Code (0-800+)">
+                                    <i class="fas fa-info-circle"></i>
+                                </span>
+                            </label>
+                            <div class="input-wrapper">
+                                <input type="number" id="DMC" name="DMC" value="3.4" min="0" max="800" step="0.1" class="primary-input" placeholder="Enter DMC">
+                                <input type="range" id="DMCSlider" min="0" max="800" value="3.4" step="0.1" class="slider-input">
+                            </div>
+                            <div class="range-labels">
+                                <span>0</span>
+                                <span>800+</span>
+                            </div>
+                        </div>
+
+                        <!-- DC -->
+                        <div class="input-group">
+                            <label for="DC">
+                                <i class="fas fa-fire"></i>
+                                DC
+                                <span class="tooltip" data-tooltip="Drought Code (0-800+)">
+                                    <i class="fas fa-info-circle"></i>
+                                </span>
+                            </label>
+                            <div class="input-wrapper">
+                                <input type="number" id="DC" name="DC" value="7.6" min="0" max="800" step="0.1" class="primary-input" placeholder="Enter DC">
+                                <input type="range" id="DCSlider" min="0" max="800" value="7.6" step="0.1" class="slider-input">
+                            </div>
+                            <div class="range-labels">
+                                <span>0</span>
+                                <span>800+</span>
+                            </div>
+                        </div>
+
+                        <!-- ISI -->
+                        <div class="input-group">
+                            <label for="ISI">
+                                <i class="fas fa-fire"></i>
+                                ISI
+                                <span class="tooltip" data-tooltip="Initial Spread Index (0-56+)">
+                                    <i class="fas fa-info-circle"></i>
+                                </span>
+                            </label>
+                            <div class="input-wrapper">
+                                <input type="number" id="ISI" name="ISI" value="1.3" min="0" max="56" step="0.1" class="primary-input" placeholder="Enter ISI">
+                                <input type="range" id="ISISlider" min="0" max="56" value="1.3" step="0.1" class="slider-input">
+                            </div>
+                            <div class="range-labels">
+                                <span>0</span>
+                                <span>56+</span>
+                            </div>
+                        </div>
+
+                        <!-- BUI -->
+                        <div class="input-group">
+                            <label for="BUI">
+                                <i class="fas fa-fire"></i>
+                                BUI
+                                <span class="tooltip" data-tooltip="Buildup Index (0-800+)">
+                                    <i class="fas fa-info-circle"></i>
+                                </span>
+                            </label>
+                            <div class="input-wrapper">
+                                <input type="number" id="BUI" name="BUI" value="3.4" min="0" max="800" step="0.1" class="primary-input" placeholder="Enter BUI">
+                                <input type="range" id="BUISlider" min="0" max="800" value="3.4" step="0.1" class="slider-input">
+                            </div>
+                            <div class="range-labels">
+                                <span>0</span>
+                                <span>800+</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-actions">
+                        <button type="button" class="btn-reset" onclick="resetForm()">
+                            <i class="fas fa-redo"></i>
+                            Reset Inputs
+                        </button>
+                        <button type="submit" class="btn-predict" id="predictBtn">
+                            <span class="btn-text">Predict Fire Index</span>
+                            <i class="fas fa-sparkles btn-icon"></i>
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+        <!-- Output Section -->
+        <section class="output-section" id="outputSection">
+            <div class="output-card" id="outputCard">
+                <h2 class="section-title">
+                    <i class="fas fa-chart-line"></i>
+                    Prediction Results
+                </h2>
+                
+                <div class="results-container" id="resultsContainer">
+                    <div class="fwi-gauge-container">
+                        <div class="gauge-wrapper">
+                            <canvas id="fwiGauge" width="300" height="300"></canvas>
+                            <div class="gauge-value">
+                                <span id="fwiValue">--</span>
+                                <span class="gauge-label">FWI</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="risk-indicator">
+                        <div class="risk-level" id="riskLevel">
+                            <span class="risk-icon">🔥</span>
+                            <span class="risk-text">Enter values to predict</span>
+                        </div>
+                        <div class="classification-info">
+                            <div class="classification-result" id="classificationResult">--</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Fire Safety Tips Section -->
+        <section class="tips-section">
+            <div class="tips-card">
+                <h2 class="section-title">
+                    <i class="fas fa-shield-alt"></i>
+                    Fire Safety Tips
+                </h2>
+                <div class="tips-grid">
+                    <div class="tip-item">
+                        <i class="fas fa-campfire"></i>
+                        <h3>Campfire Safety</h3>
+                        <p>Always fully extinguish campfires and never leave them unattended.</p>
+                    </div>
+                    <div class="tip-item">
+                        <i class="fas fa-leaf"></i>
+                        <h3>Clear Debris</h3>
+                        <p>Remove dry leaves and debris from around your property to reduce fire risk.</p>
+                    </div>
+                    <div class="tip-item">
+                        <i class="fas fa-home"></i>
+                        <h3>Home Preparation</h3>
+                        <p>Create defensible space around your home and have an evacuation plan ready.</p>
+                    </div>
+                    <div class="tip-item">
+                        <i class="fas fa-bell"></i>
+                        <h3>Stay Informed</h3>
+                        <p>Monitor fire weather conditions and alerts in your area regularly.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
