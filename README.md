@@ -74,7 +74,9 @@ The model shows high accuracy and consistent performance across validation tests
 The Flask-based web app allows users to:
 
 a.Enter real-time environmental values.
+
 b.Get an instant FWI prediction.
+
 c.View a clear risk classification.
 
 🔵 Low
@@ -140,6 +142,7 @@ The application follows a simple and user-friendly navigation flow:
 Home Page
 
 a.Introduction to the Fire Weather Index Predictor.
+
 b.Button to start prediction.
 
 ![HOMEPAGE](https://github.com/user-attachments/assets/663a256f-fec4-4fa9-a0be-8e8abf3736fa)
@@ -148,6 +151,7 @@ b.Button to start prediction.
 Input Page
 
 a.User enters environmental and fire-related parameters.
+
 b.Form validation ensures correct inputs.
 
 ![INPUT PAGE](https://github.com/user-attachments/assets/dbe2ea5b-450b-4eb2-ad82-fe0931ef6916)
@@ -155,7 +159,9 @@ b.Form validation ensures correct inputs.
 Result Page
 
 a.Displays predicted FWI value.
+
 b.Shows risk category (Low / Moderate / High / Extreme).
+
 c.Provides clear visual feedback for decision-making.
 
 HIGH FWI VALUE
