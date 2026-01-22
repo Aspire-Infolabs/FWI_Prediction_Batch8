@@ -12,7 +12,7 @@ The system follows a complete end-to-end machine learning pipeline, starting fro
 Wildfires pose serious threats to ecosystems, property, and human life. The Fire Weather Index (FWI) is a widely used indicator to estimate wildfire risk based on weather and environmental conditions.
 This project aims to build a predictive model that can estimate the FWI value and classify fire risk levels to assist in early risk assessment and decision-making.
 
-Project Structure
+**Project Structure**
 <img width="7931" height="1255" alt="Project Structure" src="https://github.com/user-attachments/assets/1d1dc449-3988-4df5-a87e-83bc02a483dd" />
 
 
