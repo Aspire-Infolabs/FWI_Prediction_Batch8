@@ -19,7 +19,7 @@ This project aims to provide early fire risk prediction to support timely preven
 2. To classify forest fire risk levels based on the predicted FWI.
 3. To develop a user-friendly Flask web application for prediction
 
-## Parameters Used for Prediction:
+## PARAMETERS USED FOR PREDICTION:
 
 The prediction is based on the following real-world parameters:
 
@@ -127,7 +127,7 @@ Step 6: Open the Application in Browser:
 http://127.0.0.1:5000/
 ```
 
-##CONCLUSION:
+## CONCLUSION:
 
 This project successfully demonstrates the application of machine learning techniques for predicting the Fire Weather Index based on environmental and fuel-related parameters. The integration of a trained model with a Flask-based web application enabled real-time prediction and clear visualization of fire risk levels. Through this project, practical experience was gained in data preprocessing, model deployment, and building user-friendly interfaces, highlighting the effective use of machine learning in wildfire risk assessment and prevention.
 
