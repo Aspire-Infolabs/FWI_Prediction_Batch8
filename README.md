@@ -107,7 +107,7 @@ The system:
 ##  Steps to Run the FWI Flask App
 
 ### 1️ Clone the Repository
-git clone https://github.com/Aspire-Infolabs/FWI_Prediction_Batch8.git
+git clone - B Srikavya https://github.com/Aspire-Infolabs/FWI_Prediction_Batch8.git
 cd FWI_Prediction_Batch8
 ### 2 Create a Virtual Environment
 python -m venv .venv
