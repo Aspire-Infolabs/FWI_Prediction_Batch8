@@ -120,4 +120,4 @@ This project helped me understand:
 
 It is a beginner-friendly machine learning project that connects theory with real-world application.
 
-Author: Devinandhana (as part infosys virtual internship)
+Author: Devinandhana (as part of infosys virtual internship)
