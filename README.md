@@ -157,6 +157,7 @@ Introduction to the Fire Weather Index Predictor
 Button to start prediction
 ![HOMEPAGE](https://github.com/user-attachments/assets/663a256f-fec4-4fa9-a0be-8e8abf3736fa)
 
+
 Input Page
 
 User enters environmental and fire-related parameters
@@ -164,6 +165,22 @@ User enters environmental and fire-related parameters
 Form validation ensures correct inputs
 
 ![INPUT PAGE](https://github.com/user-attachments/assets/dbe2ea5b-450b-4eb2-ad82-fe0931ef6916)
+
+Result Page
+
+Displays predicted FWI value
+
+Shows risk category (Low / Moderate / High / Extreme)
+
+HIGH FWI VALUE
+
+![A11](https://github.com/user-attachments/assets/730e2a4e-852a-4614-acf3-71d50b0be498)
+
+![A22](https://github.com/user-attachments/assets/7111a807-cf0e-4ca2-9a90-3884fbb28c82)
+
+
+
+Provides clear visual feedback for decision-making
 
 
 
