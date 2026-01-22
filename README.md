@@ -64,6 +64,7 @@ Articles <img width="1877" height="831" alt="Screenshot 2026-01-18 054218" src="
 1. Clone the Repository
    ```
    git clone -b sneha_Potukuchi https://github.com/Aspire-Infolabs/FWI_Prediction_Batch8.git
+   cd FWI_Prediction
    
 3. Create a Virtual Environment
    * Windows
