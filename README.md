@@ -4,7 +4,7 @@ in advance. The Fire Weather Index (FWI) helps measure how likely a fire is to s
 calculating it manually is not always accurate or fast. To solve this, the aim of this project is 
 to use environmental factors like temperature, humidity, wind speed, and rainfall to build a 
 machine learning model that can predict the FWI automatically. This will help in giving early 
-warnings and improving wildfire preparedness. 
+warnings and improving wildfire preparedness.  
 
 ### Objectives
 • To study the weather factors that affect the Fire Weather Index (FWI).<br>
