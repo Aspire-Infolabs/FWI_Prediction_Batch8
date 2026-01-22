@@ -123,22 +123,6 @@ run_app.bat
 ### Fire Safety Tips 
 ![Model Performance Metrics](images/image.png)
 
-### Option: Direct Browser (Frontend Only)
-If you only want to see the frontend interface without the backend predictions:
-1. Open `index.html` directly in any modern web browser
-2. Note: Predictions will use mock data since the backend won't be running
-
-## Fire Safety Tips
-
-### Understanding Fire Weather Index (FWI)
-The Fire Weather Index is a numeric rating that indicates the potential for wildfire occurrence and spread. Higher FWI values indicate greater fire danger.
-
-### Risk Level Guidelines
-- **🟢 Low (FWI < 5)**: Safe conditions, low fire risk
-- **🟡 Moderate (5 ≤ FWI < 20)**: Monitor conditions, take basic precautions
-- **🟠 High (20 ≤ FWI < 40)**: High danger, implement fire safety measures
-- **🔴 Extreme (FWI ≥ 40)**: Extreme danger, evacuate if necessary
-
 ## Usage
 
 1. Open the application in your web browser
@@ -154,6 +138,7 @@ The Fire Weather Index is a numeric rating that indicates the potential for wild
 - `POST /predict`: Accepts JSON with input features, returns FWI prediction
 - `GET /health`: Health check endpoint
 - `GET /<filename>`: Serves static files (CSS, JS, etc.)
+
 
 
 
