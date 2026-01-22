@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>FWI Prediction</title>
+    <style>
+        body {
+            background-color: #121212;
+            color: #ffffff;
+            font-family: Arial;
+        }
+        form {
+            width: 300px;
+            margin: auto;
+        }
+        input, button {
+            width: 100%;
+            padding: 8px;
+            margin: 6px 0;
+            background: #1e1e1e;
+            color: white;
+            border: 1px solid #333;
+        }
+        button {
+            background: #ff5722;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+
+<h2 style="text-align:center;">Fire Weather Index Prediction</h2>
+
+<form method="POST" action="/predict">
+
+    <input type="number" step="any" name="Temperature" placeholder="Temperature (°C)" required>
+    <input type="number" step="any" name="RH" placeholder="Relative Humidity (%)" required>
+    <input type="number" step="any" name="Ws" placeholder="Wind Speed (km/h)" required>
+    <input type="number" step="any" name="Rain" placeholder="Rainfall (mm)" required>
+
+    <input type="number" step="any" name="FFMC" placeholder="FFMC" required>
+    <input type="number" step="any" name="DMC" placeholder="DMC" required>
+    <input type="number" step="any" name="DC" placeholder="DC" required>
+    <input type="number" step="any" name="ISI" placeholder="ISI" required>
+    <input type="number" step="any" name="BUI" placeholder="BUI" required>
+
+    <button type="submit">Predict FWI</button>
+</form>
+
+</body>
+</html>
