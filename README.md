@@ -3,11 +3,13 @@
 A Machine Learning–based web application that predicts the Fire Weather Index (FWI) using environmental and fire-danger parameters. The system helps assess wildfire risk levels and supports early warning and decision-making for forest fire management.
 
 
+
 📌 Project Overview
 
 Wildfires are strongly influenced by weather and environmental conditions. This project focuses on building an intelligent system that predicts the Fire Weather Index (FWI) using historical data and machine learning techniques.
 The project covers the complete ML lifecycle — from data collection and preprocessing to model training, evaluation, and deployment using a Flask web application.
 This project was developed as part of the Infosys Springboard Virtual Internship Program.
+
 
 
 🎯 Objectives
@@ -16,6 +18,7 @@ To analyze weather and fire-related data affecting wildfire behavior
 To build a reliable ML model for predicting Fire Weather Index (FWI)
 To deploy the trained model as a user-friendly web application
 To classify wildfire risk into Low, Moderate, High, and Extreme levels
+
 
 
 🧠 Machine Learning Approach
@@ -31,6 +34,7 @@ Random Forest Regression
 Ridge Regression was selected for deployment due to its ability to handle multicollinearity and provide strong generalization performance.
 
 
+
 ⚙️ Features Used for Prediction
 
 Temperature
@@ -44,12 +48,16 @@ ISI
 BUI
 
 
+
 📊 Model Performance (Ridge Regression)
 
 R² Score: ~0.986
+
 RMSE: ~0.74
+
 MAE: ~0.55
 The model shows high accuracy and consistent performance across validation tests.
+
 
 
 🌐 Web Application (Flask)
@@ -73,6 +81,7 @@ Controller: app.py
 View: HTML + CSS frontend
 
 
+
 🛠️ Tech Stack
 
 Programming Language: Python
@@ -82,31 +91,24 @@ Deployment Tools: Gunicorn
 Frontend: HTML5, CSS3
 
 
+
 🚀 How to Run the Project Locally
 
 Clone the repository
-
 git clone https://github.com/your-username/fwi-predictor.git
 
-
 Navigate to the project folder
-
 cd fwi-predictor
 
-
 Install dependencies
-
 pip install flask numpy
 
-
 Run the Flask app
-
 python app.py
 
-
 Open your browser and go to
-
 http://127.0.0.1:5000/
+
 
 
 🔁 System Flow Chart
@@ -115,6 +117,7 @@ The following flow chart represents the end-to-end working of the Fire Weather I
 This flow explains what happens before the Home page, during input processing, and at the result stage.
 
 <img width="1024" height="1536" alt="final Flowchart" src="https://github.com/user-attachments/assets/ac7cb51e-277c-4ab3-babc-d336790c17d0" />
+
 
 🧭 Application Page Flow
 
@@ -155,6 +158,18 @@ EXTREME FWI VALUE
 ![A55](https://github.com/user-attachments/assets/0852402c-a88d-41e4-a6ab-64c3703e9b80)
 
 ![A66](https://github.com/user-attachments/assets/288c4c84-25db-4447-8b81-492807b3cef8)
+
+
+
+✅ Conclusion
+
+This project successfully demonstrates the complete development and deployment of a Fire Weather Index (FWI) Prediction System using machine learning. By analyzing key environmental and fire-related parameters such as temperature, humidity, wind speed, rainfall, and fire danger indices, the system is able to accurately predict the Fire Weather Index and classify wildfire risk levels.
+The data was carefully cleaned, analyzed, and preprocessed to ensure reliable model performance. Multiple regression models were trained and evaluated, and Ridge Regression was selected for deployment due to its strong accuracy and ability to handle multicollinearity among input features. The final model achieved a high R² score, indicating excellent predictive capability.
+The trained model was successfully deployed using a Flask web application, allowing users to input real-time weather values and instantly receive both the FWI value and the corresponding risk category (Low, Moderate, High, or Extreme) based on defined thresholds. The system follows a clear and efficient workflow, from input validation and preprocessing to prediction and result visualization.
+Overall, this project provides a practical and user-friendly solution for wildfire risk assessment. It can assist forest departments, disaster management authorities, researchers, and environmental planners in early detection, preparedness, and informed decision-making. With further enhancements such as real-time data integration and advanced models, the system can be extended into a powerful tool for wildfire monitoring and prevention.
+
+
+
 
 
 
