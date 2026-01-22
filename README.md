@@ -48,6 +48,10 @@ Expected Outcome
  - End-to-end ML pipeline deployment
  - Scalable foundation for future enhancements such as live weather APIs and cloud deployment
 
+WORKFLOW
+<img width="271" height="941" alt="fwi drawio" src="https://github.com/user-attachments/assets/70c95ca3-7c54-4eaf-a247-b1950985b273" />
+
+
 Project Status
  - Model training and optimization completed
  - Evaluation and visualization approved
