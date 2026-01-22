@@ -44,26 +44,6 @@ BUI
 
 
 
-🌐 Web Application (Flask)
-
-The Flask-based web app allows users to:
-
-a.Enter real-time environmental values.
-
-b.Get an instant FWI prediction.
-
-c.View a clear risk classification.
-
-🔵 Low
-
-🟡 Moderate
-
-🟠 High
-
-🔴 Extreme
-
-
-
 🛠️ Tech Stack
 
 Programming Language: Python
