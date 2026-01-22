@@ -41,21 +41,19 @@ Initial Spread Index (ISI)
 
 Buildup Index (BUI)
 
-Region
-
 These values are taken as input from the user and processed by the trained model.
 
 ## TOOLS AND TECHNOLOGIES:
 
 1. python
-
+ 
 2. Flask Web
 
-3.Scikit-Learn
+3. Scikit-Learn
 
-4.Numpy &Pandas 
+4. Numpy & Pandas 
 
-5.HTML &CSS
+5. HTML & CSS
 
 ## APPLICATION WORKFLOW:
 
@@ -78,20 +76,12 @@ It also shows the corresponding fire risk level and precautionary messages to he
 
 ## HOW TO CLONE THE PROJECT IN LOCALLY
 
-Step 1: Clone the Repository
+Step 1: Clone the Repository:
 
-1. Open GitHub Desktop on your system.
- 
-2. Sign in with your GitHub account.
-
-3. Go to the project repository on GitHub.
- 
- 4.Click on Code
-
-5.Paste the repository URL:
-https://github.com/Aspire-Infobabs/FWI_Prediction_Batch8.git
-
-6.Choose a local folder and click Clone.
+```bash
+git clone -b mounika https://github.com/Aspire-Infolabs/FWI_Prediction_Batch8.git
+cd FWI_Project
+```
 
 Step 2: Create a Virtual Environment
 
@@ -131,5 +121,8 @@ http://127.0.0.1:5000/
 
 This project successfully demonstrates the application of machine learning techniques for predicting the Fire Weather Index based on environmental and fuel-related parameters. The integration of a trained model with a Flask-based web application enabled real-time prediction and clear visualization of fire risk levels. Through this project, practical experience was gained in data preprocessing, model deployment, and building user-friendly interfaces, highlighting the effective use of machine learning in wildfire risk assessment and prevention.
 
+## AUTHOR
+
+**NAME:** Mounika
 
 
