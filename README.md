@@ -61,11 +61,12 @@ Frontend: HTML5, CSS3
 🚀 How to Run the Project Locally
 
 1.Clone the repository
-git clone https://github.com/your-username/fwi-predictor.git
+ 
+ git clone -b Vanshika011111 https://github.com/Aspire-Infolabs/FWI_Prediction_Batch8.git
 
 2.Navigate to the project folder
 
-cd fwi-predictor
+ cd FWI_Prediction_Batch8
 
 3.Install dependencies
 
