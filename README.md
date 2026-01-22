@@ -131,7 +131,7 @@ Better generalization
 Handles multicollinearity
 Saved final model as ridge.pkl.
 
-## Module 5: Evaluation & Optimization
+### Module 5: Evaluation & Optimization
 
 ### Evaluated using:
 MAE
@@ -149,7 +149,7 @@ Train vs Test accuracy
 
 Confirmed no overfitting
 
-## Module 6: Deployment (Flask App)
+### Module 6: Deployment (Flask App)
 
 Built Flask backend (app.py)
 
@@ -200,6 +200,12 @@ Climate risk analysis
 Forest fire management
 Academic & internship projects
 ML + Flask deployment learning
+
+## Conclusion
+
+The Tempest: FWI Predictor project successfully demonstrates the design and implementation of a complete end-to-end machine learning system for predicting the Fire Weather Index (FWI) using real environmental and meteorological data.
+
+Through systematic data collection, exploration, and preprocessing, meaningful features influencing wildfire risk were identified and prepared for modeling. Multiple machine learning algorithms were trained and evaluated, including Linear Regression, Ridge Regression, Lasso, Decision Tree, and Random Forest. Among these, Ridge Regression emerged as the most reliable model due to its strong predictive performance, low error values, and ability to handle multicollinearity effectively.
 
 ## Author
 
