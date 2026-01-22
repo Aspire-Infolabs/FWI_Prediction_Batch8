@@ -145,3 +145,25 @@ The following flow chart represents the end-to-end working of the Fire Weather I
 This flow explains what happens before the Home page, during input processing, and at the result stage.
 
 <img width="1024" height="1536" alt="final Flowchart" src="https://github.com/user-attachments/assets/ac7cb51e-277c-4ab3-babc-d336790c17d0" />
+
+🧭 Application Page Flow
+
+The application follows a simple and user-friendly navigation flow:
+
+Home Page
+
+Introduction to the Fire Weather Index Predictor
+
+Button to start prediction
+![HOMEPAGE](https://github.com/user-attachments/assets/663a256f-fec4-4fa9-a0be-8e8abf3736fa)
+
+Input Page
+
+User enters environmental and fire-related parameters
+
+Form validation ensures correct inputs
+
+![INPUT PAGE](https://github.com/user-attachments/assets/dbe2ea5b-450b-4eb2-ad82-fe0931ef6916)
+
+
+
