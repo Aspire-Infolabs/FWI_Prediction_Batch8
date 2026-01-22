@@ -14,10 +14,10 @@ This project was developed as part of the Infosys Springboard Virtual Internship
 
 🎯 Objectives
 
-To analyze weather and fire-related data affecting wildfire behavior
-To build a reliable ML model for predicting Fire Weather Index (FWI)
-To deploy the trained model as a user-friendly web application
-To classify wildfire risk into Low, Moderate, High, and Extreme levels
+a.To analyze weather and fire-related data affecting wildfire behavior.
+b.To build a reliable ML model for predicting Fire Weather Index (FWI).
+c.To deploy the trained model as a user-friendly web application.
+d.To classify wildfire risk into Low, Moderate, High, and Extreme levels.
 
 
 
@@ -72,9 +72,10 @@ The model shows high accuracy and consistent performance across validation tests
 🌐 Web Application (Flask)
 
 The Flask-based web app allows users to:
-Enter real-time environmental values
-Get an instant FWI prediction
-View a clear risk classification:
+
+a.Enter real-time environmental values.
+b.Get an instant FWI prediction.
+c.View a clear risk classification.
 
 🔵 Low
 
@@ -103,22 +104,22 @@ Frontend: HTML5, CSS3
 
 🚀 How to Run the Project Locally
 
-Clone the repository
+1.Clone the repository
 git clone https://github.com/your-username/fwi-predictor.git
 
-Navigate to the project folder
+2.Navigate to the project folder
 
 cd fwi-predictor
 
-Install dependencies
+3.Install dependencies
 
 pip install flask numpy
 
-Run the Flask app
+4.Run the Flask app
 
 python app.py
 
-Open your browser and go to
+5.Open your browser and go to
 
 http://127.0.0.1:5000/
 
@@ -138,24 +139,24 @@ The application follows a simple and user-friendly navigation flow:
 
 Home Page
 
-Introduction to the Fire Weather Index Predictor
-Button to start prediction
+a.Introduction to the Fire Weather Index Predictor.
+b.Button to start prediction.
 
 ![HOMEPAGE](https://github.com/user-attachments/assets/663a256f-fec4-4fa9-a0be-8e8abf3736fa)
 
 
 Input Page
 
-User enters environmental and fire-related parameters
-Form validation ensures correct inputs
+a.User enters environmental and fire-related parameters.
+b.Form validation ensures correct inputs.
 
 ![INPUT PAGE](https://github.com/user-attachments/assets/dbe2ea5b-450b-4eb2-ad82-fe0931ef6916)
 
 Result Page
 
-Displays predicted FWI value
-Shows risk category (Low / Moderate / High / Extreme)
-Provides clear visual feedback for decision-making
+a.Displays predicted FWI value.
+b.Shows risk category (Low / Moderate / High / Extreme).
+c.Provides clear visual feedback for decision-making.
 
 HIGH FWI VALUE
 
