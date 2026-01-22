@@ -33,6 +33,7 @@ Technologies Used
  - Pickle – Model & scaler serialization
 
 Run the Project
+
   1.Clone the repository
   
       git clone https://github.com/your-username/fwi-prediction-system.git
@@ -90,5 +91,5 @@ Conclusion
   This project successfully demonstrates an end-to-end machine learning pipeline for predicting the Fire Weather Index (FWI) using meteorological data. By integrating a trained and optimized Ridge Regression model into a Flask web application, the system enables real-time fire risk prediction with clear risk classification. The project highlights practical skills in data preprocessing, model evaluation, deployment, and reproducibility.
 
 Author
-Srinanda C S
-Infosys Springboard Internship Project
+ Srinanda C S
+ Infosys Springboard Internship Project
