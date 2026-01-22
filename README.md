@@ -131,7 +131,7 @@ matplotlib
 seaborn
 
 openpyxl
-5.Run the Flask Application
+### 5.Run the Flask Application
 python app.py
 ### Conclusion:-This project demonstrates how Machine Learning + Flask can be effectively used
 to build a real-world wildfire prediction system for early warning and prevention.
