@@ -21,19 +21,9 @@ To create a fully functional Fire Weather Index prediction platform that:
 6. Provides safety precautions and possible cause
 This system aims to support early warning, risk assessment, and proactive wildfire control strategies.
 
-Key Deliverables:
+Workflow :  
+<img width="1024" height="1536" alt="image" src="https://github.com/user-attachments/assets/6f1b2d8d-1d44-4e2c-8320-68a7f435ad9d" />
 
-Machine Learning Model
-•	Built and trained a Ridge Regression model to predict FWI
-•	Tested multiple regression algorithms and selected the best performer
-•	Applied StandardScaler for accurate feature normalization
-Web Deployment
-•	Integrated the trained model into a Flask web application
-•	Developed intuitive web pages for input and output
-•	Displayed:
-->	Predicted FWI value
--> Risk level classification
--> Causes and precautionary measures
 
 Features Used for Prediction:
 
