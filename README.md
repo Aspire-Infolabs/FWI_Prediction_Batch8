@@ -124,3 +124,5 @@ This project helped me understand:
 -How to deploy a model as a web application
 
 It is a beginner-friendly machine learning project that connects theory with real-world application.
+
+Author: Devinandhana (as part infosys virtual internship)
