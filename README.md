@@ -139,6 +139,10 @@ run_app.bat
 - `GET /health`: Health check endpoint
 - `GET /<filename>`: Serves static files (CSS, JS, etc.)
 
+## Conclusion
+
+The **Fire Weather Index (FWI) Prediction App** represents a comprehensive solution for wildfire risk assessment, combining advanced machine learning with an intuitive user interface. This application successfully bridges the gap between complex meteorological data and practical decision-making for fire safety.
+
 
 
 
