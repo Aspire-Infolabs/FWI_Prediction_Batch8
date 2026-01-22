@@ -38,6 +38,7 @@ Python Libraries(Check requirements.txt)
 Step 1: Clone the repository
 ```
  git clone -b Pranjali https://github.com/Aspire-Infolabs/FWI_Prediction_Batch8.git
+ cd FWI_Prediction_Batch8
 ```
 
 Step 2: Create a Virtual Environment<br>
