@@ -107,15 +107,19 @@ Clone the repository
 git clone https://github.com/your-username/fwi-predictor.git
 
 Navigate to the project folder
+
 cd fwi-predictor
 
 Install dependencies
+
 pip install flask numpy
 
 Run the Flask app
+
 python app.py
 
 Open your browser and go to
+
 http://127.0.0.1:5000/
 
 
@@ -133,6 +137,7 @@ This flow explains what happens before the Home page, during input processing, a
 The application follows a simple and user-friendly navigation flow:
 
 Home Page
+
 Introduction to the Fire Weather Index Predictor
 Button to start prediction
 
@@ -140,12 +145,14 @@ Button to start prediction
 
 
 Input Page
+
 User enters environmental and fire-related parameters
 Form validation ensures correct inputs
 
 ![INPUT PAGE](https://github.com/user-attachments/assets/dbe2ea5b-450b-4eb2-ad82-fe0931ef6916)
 
 Result Page
+
 Displays predicted FWI value
 Shows risk category (Low / Moderate / High / Extreme)
 Provides clear visual feedback for decision-making
