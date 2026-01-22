@@ -13,8 +13,11 @@ Wildfires are strongly influenced by weather and environmental conditions. This 
 🎯 Problem Outcomes
 
 a.Analysed weather and fire-related data affecting wildfire behavior.
+
 b.Build a reliable ML model for predicting Fire Weather Index (FWI).
+
 c.Deployed the trained model as a user-friendly web application.
+
 d.Classified wildfire risk into Low, Moderate, High, and Extreme levels.
 
 
@@ -64,9 +67,13 @@ c.View a clear risk classification.
 🛠️ Tech Stack
 
 Programming Language: Python
+
 Libraries:pandas, numpymatplotlib, seabornscikit-learn
+
 Web Framework: Flask
+
 Deployment Tools: Gunicorn
+
 Frontend: HTML5, CSS3
 
 
@@ -133,19 +140,16 @@ c.Provides clear visual feedback for decision-making.
 
 HIGH FWI VALUE
 
-![A11](https://github.com/user-attachments/assets/730e2a4e-852a-4614-acf3-71d50b0be498)
 
 ![A22](https://github.com/user-attachments/assets/7111a807-cf0e-4ca2-9a90-3884fbb28c82)
 
 MODERATE FWI VALUE
 
-![A33](https://github.com/user-attachments/assets/7a94942e-8f15-4b0b-a901-6b9a8b20d422)
 
 ![A44](https://github.com/user-attachments/assets/a52fe1cd-0b27-492b-90cc-d85d1c57f4fb)
 
 EXTREME FWI VALUE
 
-![A55](https://github.com/user-attachments/assets/0852402c-a88d-41e4-a6ab-64c3703e9b80)
 
 ![A66](https://github.com/user-attachments/assets/288c4c84-25db-4447-8b81-492807b3cef8)
 
@@ -153,10 +157,7 @@ EXTREME FWI VALUE
 
 ✅ Conclusion
 
-This project successfully demonstrates the complete development and deployment of a Fire Weather Index (FWI) Prediction System using machine learning. By analyzing key environmental and fire-related parameters such as temperature, humidity, wind speed, rainfall, and fire danger indices, the system is able to accurately predict the Fire Weather Index and classify wildfire risk levels.
-The data was carefully cleaned, analyzed, and preprocessed to ensure reliable model performance. Multiple regression models were trained and evaluated, and Ridge Regression was selected for deployment due to its strong accuracy and ability to handle multicollinearity among input features. The final model achieved a high R² score, indicating excellent predictive capability.
-The trained model was successfully deployed using a Flask web application, allowing users to input real-time weather values and instantly receive both the FWI value and the corresponding risk category (Low, Moderate, High, or Extreme) based on defined thresholds. The system follows a clear and efficient workflow, from input validation and preprocessing to prediction and result visualization.
-Overall, this project provides a practical and user-friendly solution for wildfire risk assessment. It can assist forest departments, disaster management authorities, researchers, and environmental planners in early detection, preparedness, and informed decision-making. With further enhancements such as real-time data integration and advanced models, the system can be extended into a powerful tool for wildfire monitoring and prevention.
+This project successfully demonstrates the complete development and deployment of a Fire Weather Index (FWI) Prediction System using machine learning. By analyzing key environmental and fire-related parameters such as temperature, humidity, wind speed, rainfall, and fire danger indices, the system is able to accurately predict the Fire Weather Index and classify wildfire risk levels.Overall, this project provides a practical and user-friendly solution for wildfire risk assessment. It can assist forest departments, disaster management authorities, researchers, and environmental planners in early detection, preparedness, and informed decision-making. With further enhancements such as real-time data integration and advanced models, the system can be extended into a powerful tool for wildfire monitoring and prevention.
 
 
 
