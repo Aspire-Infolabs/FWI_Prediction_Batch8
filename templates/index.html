@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>FWI Prediction</title>
+<style>
+/* ===== RESET ===== */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* ===== BACKGROUND ===== */
+body {
+    height: 100vh;
+    background: 
+        linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),
+        url("{{ url_for('static', filename='images/forest.jpg') }}");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* ===== MAIN CARD ===== */
+.card {
+    width: 520px;
+    background: linear-gradient(145deg, #f3fff6, #e7f5ea);
+    border-radius: 20px;
+    padding: 26px 28px 30px;
+    border-left: 6px solid #2e7d32;
+    box-shadow: 0 22px 45px rgba(0,0,0,0.5);
+}
+
+
+/* ===== CARD IMAGE ===== */
+.card img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 12px;
+    margin-bottom: 15px;
+}
+
+/* ===== TITLE ===== */
+.card h2 {
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 20px;
+    color: #2e2e2e;
+}
+
+/* ===== FORM GRID ===== */
+.form-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 14px 16px;
+    margin-bottom: 18px;
+}
+
+/* ===== INPUTS ===== */
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group label {
+    font-size: 13px;
+    margin-bottom: 4px;
+    color: #444;
+}
+
+.form-group input {
+    height: 40px;
+    padding: 0 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+.form-group input:focus {
+    outline: none;
+    border-color: #2e7d32;
+    box-shadow: 0 0 0 2px rgba(46,125,50,0.15);
+}
+
+/* ===== BUTTON ===== */
+button {
+    width: 100%;
+    height: 45px;
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(135deg, #2e7d32, #1b5e20);
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.95;
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 600px) {
+    .card {
+        width: 92%;
+    }
+    .form-grid {
+        grid-template-columns: 1fr;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<div class="card">
+
+    <img src="{{ url_for('static', filename='images/output.jpg') }}" alt="Forest">
+
+    <h2>Forest Fire Weather Index</h2>
+
+    <form method="POST" action="/">
+
+        <div class="form-grid">
+
+            <div class="form-group">
+                <label>Temperature (°C)</label>
+                <input type="number" step="any" name="Temperature" required>
+            </div>
+
+            <div class="form-group">
+                <label>Relative Humidity (%)</label>
+                <input type="number" step="any" name="RH" required>
+            </div>
+
+            <div class="form-group">
+                <label>Wind Speed (km/h)</label>
+                <input type="number" step="any" name="Ws" required>
+            </div>
+
+            <div class="form-group">
+                <label>Rain (mm)</label>
+                <input type="number" step="any" name="Rain" required>
+            </div>
+
+            <div class="form-group">
+                <label>FFMC</label>
+                <input type="number" step="any" name="FFMC" required>
+            </div>
+
+            <div class="form-group">
+                <label>DMC</label>
+                <input type="number" step="any" name="DMC" required>
+            </div>
+
+            <div class="form-group">
+                <label>DC</label>
+                <input type="number" step="any" name="DC" required>
+            </div>
+
+            <div class="form-group">
+                <label>ISI</label>
+                <input type="number" step="any" name="ISI" required>
+            </div>
+
+            <div class="form-group" style="grid-column: span 2;">
+                <label>BUI</label>
+                <input type="number" step="any" name="BUI" required>
+            </div>
+
+        </div>
+
+
+
+        <button type="submit">Predict FWI</button>
+    </form>
+</div>
+</body>
+</html>
