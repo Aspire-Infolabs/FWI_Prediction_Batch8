@@ -62,11 +62,13 @@ Software
 
  Web Application Screenshots:        
 The application includes input and output pages such as:   
-•	Home Page:
+•	Home Page:  
 <img width="940" height="437" alt="image" src="https://github.com/user-attachments/assets/4c75f52d-e1a5-4f96-af0d-1fe8840aeda4" />
-•	Result Page :
-<img width="940" height="432" alt="image" src="https://github.com/user-attachments/assets/687d970a-69b1-42e6-a474-d75945392629" />    
-•	Predict again page :
+
+•	Result Page :  
+<img width="940" height="432" alt="image" src="https://github.com/user-attachments/assets/687d970a-69b1-42e6-a474-d75945392629" /> 
+
+•	Predict again page :  
 <img width="1880" height="867" alt="image" src="https://github.com/user-attachments/assets/1c2da7a3-7446-4062-8dc0-2d279fc6e1c9" />
 
 
