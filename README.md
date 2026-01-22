@@ -34,7 +34,11 @@ Technologies Used
 
 Run the Project
   1.Clone the repository
+      git clone https://github.com/your-username/fwi-prediction-system.git
+      cd fwi-prediction-system
   2.Create and activate a virtual environment
+      python3 -m venv venv
+      source venv/bin/activate
   3.Install dependencies:
       pip install -r requirements.txt
   4.Run the Flask app:
@@ -48,15 +52,22 @@ Expected Outcome
  - End-to-end ML pipeline deployment
  - Scalable foundation for future enhancements such as live weather APIs and cloud deployment
 
-WORKFLOW
-<img width="271" height="941" alt="fwi drawio" src="https://github.com/user-attachments/assets/70c95ca3-7c54-4eaf-a247-b1950985b273" />
-
-
 Project Status
  - Model training and optimization completed
  - Evaluation and visualization approved
  - Flask deployment functional
  - Documentation and reproducibility ensured
+
+WORKFLOW
+
+<img width="271" height="941" alt="fwi drawio" src="https://github.com/user-attachments/assets/2e7c7f02-8d13-4092-8f01-62ac3930a63b" />
+
+WEBPAGE
+
+<img width="1286" height="929" alt="Screenshot 2026-01-18 224546" src="https://github.com/user-attachments/assets/ad74eea3-8a63-45ad-b70b-bc79943c92a1" />
+<img width="907" height="260" alt="Screenshot 2026-01-18 224818" src="https://github.com/user-attachments/assets/9bd56cfe-7b5d-4ee6-96a6-fdbbbb178cdc" />
+<img width="821" height="265" alt="Screenshot 2026-01-18 225029" src="https://github.com/user-attachments/assets/4655edc7-6500-49bf-bf8d-996196c8c254" />
+
 
 Future Scope
  - Integration with real-time weather APIs
@@ -64,6 +75,8 @@ Future Scope
  - Mobile-friendly interface
  - Alert-based fire warning system
 
+Conclusion
+  This project successfully demonstrates an end-to-end machine learning pipeline for predicting the Fire Weather Index (FWI) using meteorological data. By integrating a trained and optimized Ridge Regression model into a Flask web application, the system enables real-time fire risk prediction with clear risk classification. The project highlights practical skills in data preprocessing, model evaluation, deployment, and reproducibility.
 
 Author
 Srinanda C S
