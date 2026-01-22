@@ -10,15 +10,15 @@ The backend is built with Flask and uses a Ridge regression model to make predic
 
 The model requires the following 9 input parameters:
 
-- **Temperature** (°C): Ambient temperature (0-50°C)
-- **Relative Humidity** (RH) (%): Relative humidity percentage (0-100%)
-- **Wind Speed** (Ws) (km/h): Wind speed (0-100 km/h)
-- **Rain** (mm): Rainfall amount (0-50 mm)
-- **FFMC** (Fine Fuel Moisture Code): Moisture content of fine fuels (0-101.2)
-- **DMC** (Duff Moisture Code): Moisture content of loosely compacted organic layers (0-800+)
-- **DC** (Drought Code): Moisture content of deep, compact organic layers (0-800+)
-- **ISI** (Initial Spread Index): Expected rate of fire spread (0-56+)
-- **BUI** (Buildup Index): Total amount of fuel available for combustion (0-800+)
+- **Temperature** (°C)
+- **Relative Humidity** (RH) (%)
+- **Wind Speed** (Ws) (km/h)
+- **Rain** (mm)
+- **FFMC** (Fine Fuel Moisture Code)
+- **DMC** (Duff Moisture Code)
+- **DC** (Drought Code)
+- **ISI** (Initial Spread Index)
+- **BUI** (Buildup Index)
 
 ## Output Features
 
@@ -103,10 +103,9 @@ http://127.0.0.1:5000/
 run_app.bat
 ```
 
-### Option: Direct Browser (Frontend Only)
-If you only want to see the frontend interface without the backend predictions:
-1. Open `index.html` directly in any modern web browser
-2. Note: Predictions will use mock data since the backend won't be running
+## Result
+![Uploading image.png…]()
+
 
 ## Usage
 
@@ -144,14 +143,7 @@ If you only want to see the frontend interface without the backend predictions:
 - Enable JavaScript
 - Allow CORS if running frontend separately
 
-## Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Test thoroughly
-5. Submit a pull request
-
 ## License
 
 MIT License - feel free to use and modify as needed.
+
