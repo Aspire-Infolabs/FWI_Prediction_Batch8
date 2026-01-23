@@ -1,9 +1,9 @@
-Fire Weather Index (FWI) Predictor :
+## Fire Weather Index (FWI) Predictor :
 
-A cutting-edge machine learning web application designed to predict the Fire Weather Index (FWI) using key meteorological and fire-danger parameters. This project was developed as part of the Infosys Springboard Virtual Internship Program.Wildfires are becoming more frequent and dangerous due to climate change and extreme weather conditions, causing serious damage to forests, wildlife, and human life. An automated machine learning–based system is needed to provide fast and reliable fire risk predictions.
+A cutting-edge machine learning web application designed to predict the Fire Weather Index (FWI) using key meteorological and fire-danger parameters..Wildfires are becoming more frequent and dangerous due to climate change and extreme weather conditions, causing serious damage to forests, wildlife, and human life. An automated machine learning–based system is needed to provide fast and reliable fire risk predictions.
 
 
-Project Goal:
+## Project Goal:
 To create a fully functional Fire Weather Index prediction platform that:
 
 1. Collects real-time environmental inputs 
@@ -14,11 +14,11 @@ To create a fully functional Fire Weather Index prediction platform that:
 6. Provides safety precautions and possible cause
 
 
-Workflow :  
+## Workflow :  
 <img width="1024" height="1536" alt="image" src="https://github.com/user-attachments/assets/6f1b2d8d-1d44-4e2c-8320-68a7f435ad9d" />
 
 
-Features Used for Prediction:
+## Features Used for Prediction:
 
 The model uses the following inputs:
 
@@ -34,21 +34,24 @@ The model uses the following inputs:
 
 The model uses the outputs is:
 
-FWI
+1.FWI
 
 
-System Requirements:
+## System Requirements:
 
-Hardware  
+Hardware:  
+
 •	Processor: Intel Core i3 or higher    
 •	RAM: Minimum 4 GB (8 GB recommended)
 •	Storage: Minimum 10 GB free disk space  
-Software  
+
+Software:  
+
 •	Python 3.9+  
 •	Flask   
 •	Required Python libraries (requirements.txt)  
 
-Web Application Screenshots:        
+## Web Application Screenshots:        
 
 •	Home Page:  
 <img width="940" height="437" alt="image" src="https://github.com/user-attachments/assets/4c75f52d-e1a5-4f96-af0d-1fe8840aeda4" />
@@ -60,7 +63,7 @@ Web Application Screenshots:
 <img width="1880" height="867" alt="image" src="https://github.com/user-attachments/assets/1c2da7a3-7446-4062-8dc0-2d279fc6e1c9" />
 
 
-Running the Project on Your Local Machine:  
+## Running the Project on Your Local Machine:  
 Step 1: Clone the Project Repository:-  Start by copying the project files to your computer using Git.  
 ```
     git clone -b Dolly https://github.com/Aspire-Infolabs/FWI_Prediction_Batch8.git
@@ -100,7 +103,7 @@ Once the server starts, open your browser and go to:
 http://127.0.0.1:5000
 ```
    
-Conclusion :  
+## Conclusion :  
   
 This project demonstrates a complete pipeline for predicting the Fire Weather Index, from data processing and scaling to model training and deployment using Flask. The web application not only predicts FWI but also provides risk-level interpretation and safety guidance, making it a valuable tool for early wildfire warning and risk management enhance this with more words by examining this project whole and give conclusion.
 
