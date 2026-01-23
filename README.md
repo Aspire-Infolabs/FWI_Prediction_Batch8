@@ -106,13 +106,19 @@ http://127.0.0.1:5000/
 * All input fields are mandatory
 * Accepts only numeric values
 * Includes a Predict FWI button
+
+
   ![Output](images/web_screen_input_values.jpeg)
+
 
 # Result Page
 * Displays the predicted Fire Weather Index (FWI) value
 * Shows a success message after prediction
 * Provides a Go Back option to make another prediction
+
+  
   ![Prediction](images/Predicted_output.jpeg)
+  
 
 ## How the Application Works:
 
