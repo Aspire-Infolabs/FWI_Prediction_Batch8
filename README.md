@@ -1,7 +1,10 @@
 # 🔥 Fire Weather Index (FWI) Prediction – Flask Web Application
 
 * This project is a Flask web application that uses machine learning to forecast the Fire Weather Index (FWI) based on meteorological data.
-* The program runs on a local network and was created and tested in a Windows environment. 
+* The program runs on a local network and was created and tested in a Windows environment.
+
+# FLOWCHART
+![Flowchart](images/flowchart.jpeg)
 
 # 1) Project Description:
 
@@ -103,11 +106,13 @@ http://127.0.0.1:5000/
 * All input fields are mandatory
 * Accepts only numeric values
 * Includes a Predict FWI button
+  ![Output](images/web_screen_input_values.jpeg)
 
 # Result Page
 * Displays the predicted Fire Weather Index (FWI) value
 * Shows a success message after prediction
 * Provides a Go Back option to make another prediction
+  ![Prediction](images/Predicted_output.jpeg)
 
 ## How the Application Works:
 
