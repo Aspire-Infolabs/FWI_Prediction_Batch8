@@ -1,36 +1,41 @@
 FWI Predictor – A Machine Learning Model to Predict Fire Weather Index  
 
-Project Statement
+Project Statement  
 Wildfires pose a significant threat to ecosystems, human life, and property. The Fire Weather Index (FWI) is a  crucial tool used by meteorological and environmental agencies worldwide to estimate wildfire potential. This  project aims to build a machine learning model that predicts FWI based on real-time environmental data, enabling  proactive wildfire risk management. The model is trained using Ridge Regression, deployed via a Flask web  application, and supports early warning systems for wildfire hazards. 
 
 Outcomes:   
-• A predictive ML model trained using Ridge Regression to forecast FWI.  
-• A pre-processing pipeline using StandardScaler for normalization.  
-• A Flask-based web app where users can input environmental values and get FWI predictions. 
-• A system that can help forest departments, emergency planners, and climate researchers make data driven decisions.  
+
+- A predictive ML model trained using Ridge Regression to forecast FWI.   
+- A pre-processing pipeline using StandardScaler for normalization.   
+- A Flask-based web app where users can input environmental values and get FWI predictions.    
+- A system that can help forest departments, emergency planners, and climate researchers make data driven decisions.    
 
 Modules to be implemented   
-• Data Collection  
-• Data Exploration (EDA) and Data Preprocessing  
-• Feature Engineering and Scaling   
-• Model Training using Ridge Regression  
-• Evaluation and Optimization  
-• Deployment via Flask App  
-• Presentation and Documentation
+
+- Data Collection  
+- Data Exploration (EDA) and Data Preprocessing  
+- Feature Engineering and Scaling   
+- Model Training using Ridge Regression  
+- Evaluation and Optimization  
+- Deployment via Flask App  
+- Presentation and Documentation
 
 Web Application (Flask) Features:
+
  - User-friendly form for entering weather and fire parameters
  - Backend preprocessing using saved scaler
  - Model inference using trained Ridge Regression model
  - Fire risk classification (Low, Moderate, High, Very High, Extreme)
 
 Software
+
  - Operating System: Windows / Linux / macOS
  - Programming Language: Python 3.11 (or above)
  - Development Environment: VS Code with Jupyter Notebook extension
  - Web Browser: Google Chrome / Firefox / Microsoft Edge
 
 Technologies Used
+
  - Python 3.11
  - Pandas, NumPy – Data handling
  - Matplotlib, Seaborn – Visualization
@@ -112,9 +117,9 @@ Future Scope
  - Mobile-friendly interface
  - Alert-based fire warning system
 
-Conclusion
-  This project successfully demonstrates an end-to-end machine learning pipeline for predicting the Fire Weather Index (FWI) using meteorological data. By integrating a trained and optimized Ridge Regression model into a Flask web application, the system enables real-time fire risk prediction with clear risk classification. The project highlights practical skills in data preprocessing, model evaluation, deployment, and reproducibility.
+Conclusion   
+This project successfully demonstrates an end-to-end machine learning pipeline for predicting the Fire Weather Index (FWI) using meteorological data. By integrating a trained and optimized Ridge Regression model into a Flask web application, the system enables real-time fire risk prediction with clear risk classification. The project highlights practical skills in data preprocessing, model evaluation, deployment, and reproducibility.
 
-Author 
- Srinanda C S 
- Infosys Springboard Internship Project
+Author  
+Srinanda C S  
+Infosys Springboard Internship Project  
